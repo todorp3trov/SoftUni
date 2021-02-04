@@ -18,10 +18,10 @@ Write a program that determines whether based on the given age a person is: baby
 ### Examples
 
 | **Input** | **Output** |
-| --- | --- |
-| 20 | adult |
-| 1 | baby |
-| 100 | elder |
+| --------- | ---------- |
+| 20        | adult      |
+| 1         | baby       |
+| 100       | elder      |
 
 ## 2. Division
 
@@ -29,22 +29,22 @@ You will be given an integer and you have to print on the console whether that n
 
 ### Examples
 
-| **Input** | **Output** |
-| --- | --- |
-| 30 | The number is divisible by 10 |
-| 15 | The number is divisible by 3 |
-| 12 | The number is divisible by 6 |
-| 1643 | Not divisible |
+| **Input** | **Output**                    |
+| --------- | ----------------------------- |
+| 30        | The number is divisible by 10 |
+| 15        | The number is divisible by 3  |
+| 12        | The number is divisible by 6  |
+| 1643      | Not divisible                 |
 
 ## 3. Vacation
 
 You are given a group of people, type of the group, on which day of the week they are going to stay. Based on that information calculate how much they have to pay and print that price on the console. Use the table below. In each cell is the price for a **single person**. The output should look like that: &quot; **Total price: {price}**&quot;. The price should be formatted to the second decimal point.
 
-|   | **Friday** | **Saturday** | **Sunday** |
-| --- | --- | --- | --- |
-| **Students** | 8.45 | 9.80 | 10.46 |
-| **Business** | 10.90 | 15.60 | 16 |
-| **Regular** | 15 | 20 | 22.50 |
+|              | **Friday** | **Saturday** | **Sunday** |
+| ------------ | ---------- | ------------ | ---------- |
+| **Students** | 8.45       | 9.80         |      10.46 |
+| **Business** | 10.90      | 15.60        | 16         |
+| **Regular**  | 15         | 20           | 22.50      |
 
 There are also discounts based on some conditions:
 
@@ -61,37 +61,35 @@ There are also discounts based on some conditions:
 | 30<br>Students<br>Sunday | Total price: 266.73 |
 | 40<br>Regular<br>Saturday| Total price: 800.00 |
 
-| Fruit         | Price                   | Advantages              |
-| ------------- | ----------------------- | ----------------------- |
-| Bananas       | first line<br>next line | first line<br>next line |
-| Bananas       | first line<br>next line | first line<br>next line |
-
 ## 4. Print and Sum
 
 Write a program to display numbers from given start to given end and their sum. All the numbers will be integers. On the first line you will receive the start number, on the second the end number.
 
 ### Examples
 
-| **Input** | **Output** |
-| --- | --- |
-| 510 | 5 6 7 8 9 10Sum: 45 |
-| 026 | 0 1 2 … 26Sum: 351 |
-| 5060 | 50 51 52 53 54 55 56 57 58 59 60Sum: 605 |
+| **Input** | **Output**                                   |
+| --------- | -------------------------------------------- |
+| 5<br>10   | 5 6 7 8 9 10<br>Sum: 45                      |
+| 0<br>26   | 0 1 2 … 26<br>Sum: 351                       |
+| 50<br>60  | 50 51 52 53 54 55 56 57 58 59 60<br>Sum: 605 |
 
-1.
-## Login
+## 5. Login
 
 You will be given a string representing a username. The password will be that username reversed. Until you receive the correct password print on the console &quot; **Incorrect password. Try again.**&quot;. When you receive the correct password print &quot; **User {username} logged in.**&quot; However on the fourth try if the password is still not correct print &quot; **User {username} blocked!**&quot; and end the program.
 
 ### Examples
 
-| **Input** | **Output** |
-| --- | --- |
-| Acerlogingolet me inrecA
- | Incorrect password. Try again.Incorrect password. Try again.Incorrect password. Try again.User Acer logged in.
- |
-| momoomom | User momo logged in. |
-| sunnyrainycloudysunnynot sunny | Incorrect password. Try again.Incorrect password. Try again.Incorrect password. Try again.User sunny blocked! |
+| **Input**                                      | **Output**                         |
+| ---------------------------------------------- | ---------------------------------- |
+| Acer<br>login<br>golet me in<br>recA           | Incorrect password.
+                                                   <br>Try again.Incorrect password.
+                                                   <br>Try again.Incorrect password.
+                                                   <br>Try again.User Acer logged in. |
+| momo<br>omom                                   | User momo logged in.               |
+| sunny<br>rainy<br>cloudy<br>sunny<br>not sunny | Incorrect password. 
+                                                   <br>Try again.Incorrect password. 
+                                                   <br>Try again.Incorrect password. 
+                                                   <br>Try again.User sunny blocked!  |
 
 1.
 ## Strong Number
