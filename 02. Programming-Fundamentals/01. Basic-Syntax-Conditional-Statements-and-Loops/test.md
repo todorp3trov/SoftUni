@@ -40,11 +40,11 @@ You will be given an integer and you have to print on the console whether that n
 
 You are given a group of people, type of the group, on which day of the week they are going to stay. Based on that information calculate how much they have to pay and print that price on the console. Use the table below. In each cell is the price for a **single person**. The output should look like that: &quot; **Total price: {price}**&quot;. The price should be formatted to the second decimal point.
 
-| **Friday** | **Saturday** | **Sunday** |
+|   | **Friday** | **Saturday** | **Sunday** |
 | --- | --- | --- | --- |
-| Students | 8.45 | 9.80 | 10.46 |
-| Business | 10.90 | 15.60 | 16 |
-| Regular | 15 | 20 | 22.50 |
+| **Students** | 8.45 | 9.80 | 10.46 |
+| **Business** | 10.90 | 15.60 | 16 |
+| **Regular** | 15 | 20 | 22.50 |
 
 There are also discounts based on some conditions:
 
@@ -56,9 +56,11 @@ There are also discounts based on some conditions:
 
 ### Examples
 
-| **Input** | **Output** |
+|    | **Input** | **Output** |
 | --- | --- |
-| 30StudentsSunday | Total price: 266.73 |
+| 30
+Students
+Sunday | Total price: 266.73 |
 | 40RegularSaturday | Total price: 800.00 |
 
 ## 4. Print and Sum
