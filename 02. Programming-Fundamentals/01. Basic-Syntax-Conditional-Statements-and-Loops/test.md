@@ -103,20 +103,11 @@ You task is to calculate the total price of a purchase from a vending machine. U
 
 ### Examples
 
-| **Input** | **Output** |
-| --- | --- |
-| 1<br>
-1<br>
-0.5<br>
-0.6<br>
-Start<br>
-Coke<br>
-Soda<br>
-Crisps<br>
-End          | Cannot accept 0.60Purchased CokePurchased SodaSorry, not enough moneyChange: 0.70 |
+| **Input**                                                      | **Output**                                                                                        |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| 1<br>1<br>0.5<br>0.6<br>Start<br>Coke<br>Soda<br>Crisps<br>End | Cannot accept 0.60<br>Purchased Coke<br>Purchased Soda<br>Sorry, not enough money<br>Change: 0.70 |
 
-1.
-## Triangle of Numbers
+## 8. Triangle of Numbers
 
 Write a program, which receives a number – **n** , and prints a triangle from **1 to n** as in the examples.
 
@@ -126,11 +117,9 @@ Write a program, which receives a number – **n** , and prints a triangle from 
 
 ### Examples
 
-| **Input** | **Output** |
- | **Input** | **Output** |
- | **Input** | **Output** |
+| **Input** | **Output** |  | **Input** | **Output** |  | **Input** | **Output** | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 3 | 12 2 3 3 3 | 5 | 12 2 3 3 34 4 4 45 5 5 5 5 | 6 | 12 2 3 3 34 4 4 45 5 5 5 56 6 6 6 6 6 |
+| 3 | 1<br>2 2<br>3 3 3  | 5 | 1<br>2 2<br>3 3 3<br>4 4 4 4<br>5 5 5 5 5 | 6 | 1<br>2 2<br>3 3 3<br>4 4 4 4<br>5 5 5 5 5<br>6 6 6 6 6 6 |
 
 1.
 ## \*Padawan Equipment
