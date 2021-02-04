@@ -65,14 +65,10 @@ There are also discounts based on some conditions:
 | Regular |
 | Saturday | Total price: 800.00 |
 
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
-
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         || 
+| Fruit         | Price                   | Advantages              |
+| ------------- | ----------------------- | ----------------------- |
+| Bananas       | first line<br>next line | first line<br>next line |
+| Bananas       | first line<br>next line | first line<br>next line |
 
 ## 4. Print and Sum
 
