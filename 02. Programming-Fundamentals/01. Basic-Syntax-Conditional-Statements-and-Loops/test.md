@@ -56,7 +56,7 @@ There are also discounts based on some conditions:
 
 ### Examples
 
-|    | **Input** | **Output** |
+|   | **Input** | **Output** |
 | --- | --- |
 | 30 | |
 | Students | |
@@ -64,6 +64,15 @@ There are also discounts based on some conditions:
 | 40 | |
 | Regular |
 | Saturday | Total price: 800.00 |
+
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         || 
 
 ## 4. Print and Sum
 
