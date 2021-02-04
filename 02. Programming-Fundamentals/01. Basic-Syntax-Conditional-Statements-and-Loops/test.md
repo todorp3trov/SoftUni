@@ -122,7 +122,7 @@ Write a program, which receives a number – **n** , and prints a triangle from 
 | 3         | 1<br>2 2<br>3 3 3  |     | 5         | 1<br>2 2<br>3 3 3<br>4 4 4 4<br>5 5 5 5 5 |     | 6         | 1<br>2 2<br>3 3 3<br>4 4 4 4<br>5 5 5 5 5<br>6 6 6 6 6 6 |
 
 1.
-## 9. *Padawan Equipment
+## 9. \*Padawan Equipment
 
 Yoda is starting his newly created Jedi academy. So, he asked master Ivan Cho to **buy** the **needed equipment**. The number of **items** depends on **how many students will sign up**. The equipment for the Padawan contains **lightsabers, belts and robes**.
 
@@ -155,12 +155,11 @@ The output should be printed on the console.
 
 | **Input**                       | **Output**                                    | **Comments**                                                                               |
 | ------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| 100<br>2<br>1.0<br>2.0<br>3.0 | The money is enough - it would cost<br>13.00lv. | Needed equipment for 2 padawans :<br>sabresPrice\*(studentsCount + 10%) + robesPrice \*<br>(studentsCount) + beltsPrice\*(studentsCount-freeBelts)<br>1\*(3) + 2\*(2) + 3\*(2) = 13.00<br>13.00 \&lt;= 100 – the money will be enough. |
+| 100<br>2<br>1.0<br>2.0<br>3.0 | The money is enough - it would cost13.00lv. | Needed equipment for 2 padawans :<br>sabresPrice\*(studentsCount + 10%) + robesPrice \*<br>(studentsCount) + beltsPrice\*(studentsCount-freeBelts)<br>1\*(3) + 2\*(2) + 3\*(2) = 13.00<br>13.00 \&lt;= 100 – the money will be enough. |
 | **Input**                       | **Output**                                    | **Comments**                                                                               |
-| ------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | 100<br>42<br>12.0<br>4.0<br>3.0 | Ivan Cho will need 737.00lv more. | Needed equipment for 42 padawans:<br>12\*47 + 4\*42 + 3\*35 = 837.00<br>837 \&gt; 100 – need 737.00 lv. more.                                                                                                                                                                          |
 
-## \*Rage Expenses
+## 10. \*Rage Expenses
 
 As a MOBA challenger player, Pesho has the bad habit to trash his PC when he loses a game and rage quits. His gaming setup consists of **headset, mouse, keyboard and display**. You will receive Pesho`s **lost games count**.
 
@@ -190,18 +189,7 @@ You will receive the price of each item in his gaming setup. Calculate his rage 
 
 ### Examples
 
-| **Input** | **Output** | **Comment** |
-| --- | --- | --- |
-| 72345 | Rage expenses: 16.00 lv. | Trashed headset -\&gt; 3 timesTrashed mouse -\&gt; 2 timesTrashed keyboard -\&gt; 1 timeTotal: 6 + 6 + 4 = 16.00 lv; |
-| 2312.5021.5040200 | Rage expenses: 608.00 lv. |
- |
-
-![](RackMultipart20210204-4-1nhypp1_html_63c6245aa4940ad8.gif) ![](RackMultipart20210204-4-1nhypp1_html_5f0f2ddacbac70d2.gif) ![](RackMultipart20210204-4-1nhypp1_html_51bd00be29b85496.gif) ![](RackMultipart20210204-4-1nhypp1_html_f746d52952cd7e91.gif)[![](RackMultipart20210204-4-1nhypp1_html_3aa486326bfa75e9.png)](https://softuni.org/)
-
-Follow us:
-
-© SoftUni – [about.softuni.bg](https://about.softuni.bg/). Copyrighted document. Unauthorized copy, reproduction or use is not permitted.
-
-[![](RackMultipart20210204-4-1nhypp1_html_9b17934bfedeb713.png)](https://softuni.org/)[![](RackMultipart20210204-4-1nhypp1_html_c9db196993f48ff8.png)](https://softuni.bg/)[![Software University @ Facebook](RackMultipart20210204-4-1nhypp1_html_94be3df36d913358.png)](https://www.facebook.com/softuni.org)[![](RackMultipart20210204-4-1nhypp1_html_7e8e605369b4ad74.png)](https://www.instagram.com/softuni_org)[![Software University @ Twitter](RackMultipart20210204-4-1nhypp1_html_ff9c629b0a21eb6b.png)](https://twitter.com/SoftUni1)[![Software University @ YouTube](RackMultipart20210204-4-1nhypp1_html_7db86a748da0e575.png)](https://www.youtube.com/channel/UCqvOk8tYzfRS-eDy4vs3UyA)[![](RackMultipart20210204-4-1nhypp1_html_95554caa563bbdb3.png)](https://www.linkedin.com/company/softuni/)[![](RackMultipart20210204-4-1nhypp1_html_4df51bfadcab813.png)](https://github.com/SoftUni)[![Software University: Email Us](RackMultipart20210204-4-1nhypp1_html_d7fa82ab7332f3fa.png)](mailto:info@softuni.org)
-
-Page 8 of 8
+| **Input**                         | **Output**               | **Comment**                                                                                                 |
+| --------------------------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| 7<br>2<br>3<br>4<br>5             | Rage expenses: 16.00 lv. | Trashed headset -> 3 times<br>Trashed mouse ->; 2 times<br>Trashed keyboard -> 1 time<br>Total: 6 + 6 + 4 = 16.00 lv;                                                                                                                                                                    |
+| 23<br>12.50<br>21.50<br>40<br>200 | Rage expenses: 608.00 lv. |                                                                                                            |
