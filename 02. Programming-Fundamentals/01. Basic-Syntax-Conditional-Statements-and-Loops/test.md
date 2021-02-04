@@ -56,14 +56,10 @@ There are also discounts based on some conditions:
 
 ### Examples
 
-|   | **Input** | **Output** |
-| --- | --- |
-| 30 | |
-| Students | |
-| Sunday | Total price: 266.73 |
-| 40 | |
-| Regular |
-| Saturday | Total price: 800.00 |
+| **Input**                | **Output**          |
+| ------------------------ | ------------------- |
+| 30<br>Students<br>Sunday | Total price: 266.73 |
+| 40<br>Regular<br>Saturday| Total price: 800.00 |
 
 | Fruit         | Price                   | Advantages              |
 | ------------- | ----------------------- | ----------------------- |
