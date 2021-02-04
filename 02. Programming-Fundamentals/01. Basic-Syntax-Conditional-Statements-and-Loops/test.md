@@ -81,18 +81,11 @@ You will be given a string representing a username. The password will be that us
 
 | **Input**                                      | **Output**                         |
 | ---------------------------------------------- | ---------------------------------- |
-| Acer<br>login<br>golet me in<br>recA           | Incorrect password.
-                                                   <br>Try again.Incorrect password.
-                                                   <br>Try again.Incorrect password.
-                                                   <br>Try again.User Acer logged in. |
+| Acer<br>login<br>go<br>let me in<br>recA       | Incorrect password.<br>Try again.Incorrect password.<br>Try again.Incorrect password.<br>Try again.User Acer logged in.|
 | momo<br>omom                                   | User momo logged in.               |
-| sunny<br>rainy<br>cloudy<br>sunny<br>not sunny | Incorrect password. 
-                                                   <br>Try again.Incorrect password. 
-                                                   <br>Try again.Incorrect password. 
-                                                   <br>Try again.User sunny blocked!  |
+| sunny<br>rainy<br>cloudy<br>sunny<br>not sunny | Incorrect password.<br>Try again.Incorrect password.<br>Try again.Incorrect password.<br>Try again.User sunny blocked!| 
 
-1.
-## Strong Number
+## 6. Strong Number
 
 Write a program to check if a given number is a strong number or not. A number is strong if the sum of the Factorial of each digit is equal to the number. For example 145 is a strong number, because **1! + 4! + 5! = 145.** Print &quot; **yes**&quot; if the number is strong and &quot; **no**&quot; if the number is not strong.
 
