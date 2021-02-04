@@ -122,7 +122,7 @@ Write a program, which receives a number – **n** , and prints a triangle from 
 | 3         | 1<br>2 2<br>3 3 3  |     | 5         | 1<br>2 2<br>3 3 3<br>4 4 4 4<br>5 5 5 5 5 |     | 6         | 1<br>2 2<br>3 3 3<br>4 4 4 4<br>5 5 5 5 5<br>6 6 6 6 6 6 |
 
 1.
-## \*Padawan Equipment
+## 9. *Padawan Equipment
 
 Yoda is starting his newly created Jedi academy. So, he asked master Ivan Cho to **buy** the **needed equipment**. The number of **items** depends on **how many students will sign up**. The equipment for the Padawan contains **lightsabers, belts and robes**.
 
@@ -153,13 +153,13 @@ The output should be printed on the console.
 
 ### Examples
 
-| **Input** | **Output** | **Comments** |
-| --- | --- | --- |
-| 10021.02.03.0 | The money is enough - it would cost 13.00lv. | Needed equipment for 2 padawans :sabresPrice\*(studentsCount + 10%) + robesPrice \* (studentsCount) + beltsPrice\*(studentsCount-freeBelts) 1\*(3) + 2\*(2) + 3\*(2) = 13.0013.00 \&lt;= 100 – the money will be enough. |
-| **Input** | **Output** | **Comments** |
-| 1004212.04.03.0 | Ivan Cho will need 737.00lv more. | Needed equipment for 42 padawans:12\*47 + 4\*42 + 3\*35 = 837.00837 \&gt; 100 – need 737.00 lv. more. |
+| **Input**                       | **Output**                                    | **Comments**                                                                               |
+| ------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| 100<br>2<br>1.0<br>2.0<br>3.0 | The money is enough - it would cost<br>13.00lv. | Needed equipment for 2 padawans :<br>sabresPrice\*(studentsCount + 10%) + robesPrice \*<br>(studentsCount) + beltsPrice\*(studentsCount-freeBelts)<br>1\*(3) + 2\*(2) + 3\*(2) = 13.00<br>13.00 \&lt;= 100 – the money will be enough. |
+| **Input**                       | **Output**                                    | **Comments**                                                                               |
+| ------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| 100<br>42<br>12.0<br>4.0<br>3.0 | Ivan Cho will need 737.00lv more. | Needed equipment for 42 padawans:<br>12\*47 + 4\*42 + 3\*35 = 837.00<br>837 \&gt; 100 – need 737.00 lv. more.                                                                                                                                                                          |
 
-1.
 ## \*Rage Expenses
 
 As a MOBA challenger player, Pesho has the bad habit to trash his PC when he loses a game and rage quits. His gaming setup consists of **headset, mouse, keyboard and display**. You will receive Pesho`s **lost games count**.
