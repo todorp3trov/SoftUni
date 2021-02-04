@@ -58,10 +58,12 @@ There are also discounts based on some conditions:
 
 |    | **Input** | **Output** |
 | --- | --- |
-| 30
-Students
-Sunday | Total price: 266.73 |
-| 40RegularSaturday | Total price: 800.00 |
+| 30 | |
+| Students | |
+| Sunday | Total price: 266.73 |
+| 40 | |
+| Regular |
+| Saturday | Total price: 800.00 |
 
 ## 4. Print and Sum
 
