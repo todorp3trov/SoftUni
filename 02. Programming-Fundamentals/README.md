@@ -1,4 +1,6 @@
-<font size="66" align="center">Programming Fundamentals with Java</font>
+<div align="center">
+<font size="66">###Programming Fundamentals with Java</font>
+</div>
 The course examines fundamental concepts in programming. It builds upon your knowledge from the Programming Basics course 
 and teaches you how to use more complex programming techniques and structures such as: arrays, sheets, objects and classes.
 
