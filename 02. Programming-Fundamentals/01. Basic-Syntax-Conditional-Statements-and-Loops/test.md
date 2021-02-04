@@ -4,16 +4,15 @@ Problems for exercises and homework for the [&quot;Programming Fundamentals&quot
 
 You can check your solutions in [Judge](https://judge.softuni.bg/Contests/1226).
 
-1.
-## Ages
+## 1. Ages
 
-Write a program that determines whether based on the given age a person is: baby, child, teenager, adult, elder. The bounders are:
+Write a program that determines whether based on the given age a person is: baby, child, teenager, adult, elder. The boundries are:
 
 - **0-2 – baby;**
 - **3-13 – child;**
 - **14-19 – teenager;**
 - **20-65 – adult;**
-- **\&gt;=66 – elder;**
+- **>=66 – elder;**
 - All the values are **inclusive**.
 
 ### Examples
@@ -24,8 +23,7 @@ Write a program that determines whether based on the given age a person is: baby
 | 1 | baby |
 | 100 | elder |
 
-1.
-## Division
+## 2. Division
 
 You will be given an integer and you have to print on the console whether that number is divisible by the following numbers: 2, 3, 6, 7, 10. You should **always take the bigger division**. If the number is divisible by both **2** and **3** it is also divisible by **6** and you should print only the division by 6. If a number is divisible by **2** it is sometimes also divisible by **10** and you should print the division by 10. If the number is not divisible by any of the given numbers print &quot; **Not divisible&quot;.** Otherwise print &quot; **The number is divisible by {number}**&quot;.
 
@@ -38,13 +36,11 @@ You will be given an integer and you have to print on the console whether that n
 | 12 | The number is divisible by 6 |
 | 1643 | Not divisible |
 
-1.
-## Vacation
+## 3. Vacation
 
 You are given a group of people, type of the group, on which day of the week they are going to stay. Based on that information calculate how much they have to pay and print that price on the console. Use the table below. In each cell is the price for a **single person**. The output should look like that: &quot; **Total price: {price}**&quot;. The price should be formatted to the second decimal point.
 
-|
- | **Friday** | **Saturday** | **Sunday** |
+| **Friday** | **Saturday** | **Sunday** |
 | --- | --- | --- | --- |
 | **Students** | 8.45 | 9.80 | 10.46 |
 | **Business** | 10.90 | 15.60 | 16 |
@@ -65,8 +61,7 @@ There are also discounts based on some conditions:
 | 30StudentsSunday | Total price: 266.73 |
 | 40RegularSaturday | Total price: 800.00 |
 
-1.
-## Print and Sum
+## 4. Print and Sum
 
 Write a program to display numbers from given start to given end and their sum. All the numbers will be integers. On the first line you will receive the start number, on the second the end number.
 
