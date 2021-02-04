@@ -79,11 +79,11 @@ You will be given a string representing a username. The password will be that us
 
 ### Examples
 
-| **Input**                                      | **Output**                         |
-| ---------------------------------------------- | ---------------------------------- |
-| Acer<br>login<br>go<br>let me in<br>recA       | Incorrect password.<br>Try again.Incorrect password.<br>Try again.Incorrect password.<br>Try again.User Acer logged in.|
-| momo<br>omom                                   | User momo logged in.               |
-| sunny<br>rainy<br>cloudy<br>sunny<br>not sunny | Incorrect password.<br>Try again.Incorrect password.<br>Try again.Incorrect password.<br>Try again.User sunny blocked!| 
+| **Input**                                      | **Output**                                                                                                              |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Acer<br>login<br>go<br>let me in<br>recA       | Incorrect password.<br>Try again.Incorrect password.<br>Try again.Incorrect password.<br>Try again.User Acer logged in. |
+| momo<br>omom                                   | User momo logged in.                                                                                                    |
+| sunny<br>rainy<br>cloudy<br>sunny<br>not sunny | Incorrect password.<br>Try again.Incorrect password.<br>Try again.Incorrect password.<br>Try again.User sunny blocked!  | 
 
 ## 6. Strong Number
 
@@ -92,13 +92,12 @@ Write a program to check if a given number is a strong number or not. A number i
 ### Examples
 
 | **Input** | **Output** |
-| --- | --- |
-| 2 | yes |
-| 3451 | no |
-| 40585 | yes |
+| --------- | ---------- |
+| 2         | yes        |
+| 3451      | no         |
+| 40585     | yes        |
 
-1.
-## Vending Machine
+## 7. Vending Machine
 
 You task is to calculate the total price of a purchase from a vending machine. Until you receive &quot; **Start**&quot; you will be given different coins that are being inserted in the machine. You have to sum them in order to have the total money inserted. There is a problem though. Your vending machine only works with **0.1** , **0.2** , **0.5, 1, and 2** coins. If someone tries to insert some other coins you have to display &quot; **Cannot accept {money}**&quot;, where the value is **formated to the second digit after the decimal point** and **not** add it to the total money. On the next few lines until you receive &quot; **End**&quot; you will be given products to purchase. Your machine has however only &quot; **Nuts**&quot;, &quot; **Water**&quot;, &quot; **Crisps**&quot;, &quot; **Soda**&quot;, &quot; **Coke**&quot;. The prices are: **2.0** , **0.7** , **1.5** , **0.8** , **1.0** respectively. If the person tries to purchase a not existing product print &quot; **Invalid product**&quot;. Be careful that the person may try to purchase a product for which he doesn&#39;t have money. In that case print &quot; **Sorry, not enough money**&quot;. If the person purchases a product successfully print &quot; **Purchased {product name}**&quot;. After the &quot;End&quot; command print the money that are left formatted to the second decimal point in the format &quot; **Change: {money left}**&quot;.
 
@@ -106,7 +105,15 @@ You task is to calculate the total price of a purchase from a vending machine. U
 
 | **Input** | **Output** |
 | --- | --- |
-| 110.50.6StartCokeSodaCrispsEnd | Cannot accept 0.60Purchased CokePurchased SodaSorry, not enough moneyChange: 0.70 |
+| 1<br>
+1<br>
+0.5<br>
+0.6<br>
+Start<br>
+Coke<br>
+Soda<br>
+Crisps<br>
+End          | Cannot accept 0.60Purchased CokePurchased SodaSorry, not enough moneyChange: 0.70 |
 
 1.
 ## Triangle of Numbers
