@@ -121,7 +121,6 @@ Write a program, which receives a number – **n** , and prints a triangle from 
 | --------- | ------------------ | --- | --------- | ----------------------------------------- | --- | --------- | -------------------------------------------------------- |
 | 3         | 1<br>2 2<br>3 3 3  |     | 5         | 1<br>2 2<br>3 3 3<br>4 4 4 4<br>5 5 5 5 5 |     | 6         | 1<br>2 2<br>3 3 3<br>4 4 4 4<br>5 5 5 5 5<br>6 6 6 6 6 6 |
 
-1.
 ## 9. \*Padawan Equipment
 
 Yoda is starting his newly created Jedi academy. So, he asked master Ivan Cho to **buy** the **needed equipment**. The number of **items** depends on **how many students will sign up**. The equipment for the Padawan contains **lightsabers, belts and robes**.
