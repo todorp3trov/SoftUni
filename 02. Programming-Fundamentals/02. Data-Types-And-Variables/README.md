@@ -53,18 +53,16 @@ The input holds two lines:the **number of people n** and the **capacity p** of t
 - If **n** does not divide **p** without a remainder, you will need one additional partially full course (e.g. 17 % 3 = 2).
 - Another approach is to round up **n**** / ****p** to the nearest integer (ceiling), e.g. 17/3 = 5.67  rounds up to 6.
 - Sample code for the round-up calculation:
+ - &quot; **int courses = (int) Math.ceil((double) n / p);**
 
-![image info](C:\Users\scyth\Desktop\Fundamentals_02_Help.png)
-
-1.
-## Sum of Chars
+## 4. Sum of Chars
 
 Write a program, which **sums the ASCII codes** of **n** characters.
 Print the **sum** on the console.
 
 ### Input
 
-- On the **first**** line **, you will receive** n **– the number of** lines **, which will** follow**
+- On the **first line**, you will receive** n **– the number of** lines **, which will follow**
 - On the next **n lines** – you will receive letters from the **Latin** alphabet
 
 ### Output
@@ -81,14 +79,11 @@ Print the **total**** sum** in the following format:
 
 ### Examples
 
-| **Input** | **Output** |
- | **Input** | **Output** |
-| --- | --- | --- | --- | --- |
-| **5** AbCdE | The sum equals: 399 |
- | **12** SoftUniRulzz | The sum equals: 1263 |
+| **Input**                      | **Output**          |     | **Input**                                                              | **Output**           |
+| ------------------------------ | ------------------- | --- | ---------------------------------------------------------------------- | -------------------- |
+| **5**<br>A<br>b<br>C<br>d<br>E | The sum equals: 399 |     | **12**<br>S<br>o<br>f<br>t<br>U<br>n<br>i<br>R<br>u<br>l<br>z<br>z<br> | The sum equals: 1263 |
 
-1.
-## Print Part of the ASCII Table
+## 5. Print Part of the ASCII Table
 
 Find online more information about [ASCII](http://www.ascii-code.com/) (American Standard Code for Information Interchange) and write a program that **prints part of the ASCII table** of characters at the console.
 On the **first line of input** you will receive **the char index you should start with** and on the
@@ -96,29 +91,34 @@ On the **first line of input** you will receive **the char index you should star
 
 ### Examples
 
-| **Input** | **Output** |
-| --- | --- |
-| 6065 | \&lt; = \&gt; ? @ A |
-| 6979 | E F G H I J K L M N O |
-| 97104 | a b c d e f g h |
-| 4055 | ( ) \* + , - . / 0 1 2 3 4 5 6 7 |
+| **Input** | **Output**                       |
+| --------- | -------------------------------- |
+| 6065      | < = > ? @ A                      |
+| 6979      | E F G H I J K L M N O            |
+| 97104     | a b c d e f g h                  |
+| 4055      | ( ) \* + , - . / 0 1 2 3 4 5 6 7 |
 
-1.
-## Triples of Latin Letters
+## 6. Triples of Latin Letters
 
 Write a program to read an integer **n** and print all **triples** of the first **n small Latin letters** , ordered alphabetically:
 
 ### Examples
 
-| **Input** | **Output** |
-| --- | --- |
-| 3 | aaaaabaacabaabbabcacaacbaccbaababbacbbabbbbbcbcabcbbcccaacabcaccbacbbcbcccaccbccc |
+| **Input** | **Output**                                                                                                                                                        |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 3         | aaa<br>aab<br>aac<br>aba<br>abb<br>abc<br>aca<br>acb<br>acc<br>baa<br>bab<br>bac<br>bba<br>bbb<br>bbc<br>bca<br>bcb<br>bcc<br>caa<br>cab<br>cac<br>cba<br>cbb<br>cbc<br>cca<br>ccb<br>ccc                                                                                                                                                                        |
 
 ### Hints
 
 Perform 3 nested loops from **0** to **n-1**.
 
-![](RackMultipart20210205-4-gx5sfm_html_b00f37f59bba97a5.png)
+**for (int i = 0; i < n; i++) {
+      for (int j = 0; j < n; j++;) {
+          for (int k = 0; k < n; k++) {
+          
+          }
+      }
+}**
 
 For each iteration generate new letters
 
