@@ -51,9 +51,9 @@ The input holds two lines:the **number of people n** and the **capacity p** of t
 
 - You should **divide**  **n**  **by**  **p**. This gives you the number of full courses (e.g. 17 / 3 = 5).
 - If **n** does not divide **p** without a remainder, you will need one additional partially full course (e.g. 17 % 3 = 2).
-- Another approach is to round up **n**** / ****p** to the nearest integer (ceiling), e.g. 17/3 = 5.67  rounds up to 6.
+- Another approach is to round up **n** / **p** to the nearest integer (ceiling), e.g. 17/3 = 5.67 -> rounds up to 6.
 - Sample code for the round-up calculation:
- - &quot; **int courses = (int) Math.ceil((double) n / p);**
+ - **int courses = (int) Math.ceil((double) n / p);**
 
 ## 4. Sum of Chars
 
@@ -62,12 +62,12 @@ Print the **sum** on the console.
 
 ### Input
 
-- On the **first line**, you will receive** n **– the number of** lines **, which will follow**
+- On the **first line**, you will receive **n** – the number of **lines**, which will **follow**
 - On the next **n lines** – you will receive letters from the **Latin** alphabet
 
 ### Output
 
-Print the **total**** sum** in the following format:
+Print the **total sum** in the following format:
 
 **The sum equals: {totalSum}**
 
@@ -75,7 +75,7 @@ Print the **total**** sum** in the following format:
 
 - **n** will be in the interval **[1…20]**.
 - The **characters** will always be either **upper** or **lower** -case letters from the **English alphabet**
-- You will always receive **one**** letter **per** line**
+- You will always receive **one letter** per **line**
 
 ### Examples
 
@@ -135,7 +135,7 @@ System.out.printf("%c%c%c%n", firstChar, secondChar, thirdChar);
 
 ## 7. Water Overflow
 
-You have a **water**** tank with capacity of **255 liters**.
+You have a **water tank** with capacity of **255 liters**.
 On the next **n** lines, you will receive **liters of water**, which you have to **pour** in your **tank**.
 If the **capacity** is **not enough** , print &quot;**Insufficient capacity!**&quot; and **continue reading** the next line. On the last line, print the **liters** in the **tank**.
 
