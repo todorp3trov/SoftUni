@@ -112,40 +112,43 @@ Write a program to read an integer **n** and print all **triples** of the first 
 
 Perform 3 nested loops from **0** to **n-1**.
 ```java
- for (int i = 0; i < n; i++) {
-     for (int j = 0; j < n; j++) {
-         for (int k = 0; k < n; k++) {
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n; j++) {
+        for (int k = 0; k < n; k++) {
 
-         }
-     }
- }
+        }
+    }
+}
 ```
 
 For each iteration generate new letters
 
-![](RackMultipart20210205-4-gx5sfm_html_8d861a9e1477ef1d.png)
+```java
+char firstChar = (char) ('a' + i);
+```
 
 Concat all characters in a string and print it. You can use **String.format()**.
 
-![](RackMultipart20210205-4-gx5sfm_html_59b6476105b43490.png)
+```java
+System.out.printf("%c%c%c%n", firstChar, secondChar, thirdChar);
+```
 
-1.
-## Water Overflow
+## 7. Water Overflow
 
-You have a **water**** tank **with capacity of** 255 liters**.
-On the next **n** lines, you will receive **liters of water** , which you have to **pour** in your **tank**.
-If the **capacity** is **not enough** , print &quot; **Insufficient capacity!**&quot; and **continue reading** the next line. On the last line, print the **liters** in the **tank**.
+You have a **water**** tank with capacity of **255 liters**.
+On the next **n** lines, you will receive **liters of water**, which you have to **pour** in your **tank**.
+If the **capacity** is **not enough** , print &quot;**Insufficient capacity!**&quot; and **continue reading** the next line. On the last line, print the **liters** in the **tank**.
 
 ### Input
 
 The **input** will be on two lines:
 
-- On the **first**** line **, you will receive** n **– the number of** lines **, which will** follow**
+- On the **first line**, you will receive **n** – the number of **lines**, which will **follow**
 - On the next **n lines** – you receive **quantities** of water, which you have to **pour** in the **tank**
 
 ### Output
 
-Every time you do not have **enough**** capacity **in the tank to pour the given liters,** print**:
+Every time you do not have **enough capacity** in the tank to pour the given liters, **print**:
 
 **Insufficient capacity!**
 
@@ -158,16 +161,13 @@ On the last line, **print** only the **liters** in the **tank**.
 
 ### Examples
 
-| **Input** | **Output** |
- | **Input** | **Output** |
-| --- | --- | --- | --- | --- |
-| **5** 2010010010020 | Insufficient capacity!240 | **1** 1000
- | Insufficient capacity!0 |
+| **Input**                                  | **Output**                    |     | **Input**     | **Output**                  |
+| ------------------------------------------ | ----------------------------- | --- | ------------- | --------------------------- |
+| **5**20<br>100<br>100<br>100<br>20         | Insufficient capacity!<br>240 |     | **1**<br>1000 | Insufficient capacity!<br>0 |
 
-| **Input** | **Output** |
- | **Input** | **Output** |
-| --- | --- | --- | --- | --- |
-| **7** 1020301051020 | 105 | **4** 250102040 | Insufficient capacity!Insufficient capacity!Insufficient capacity!250 |
+| **Input**                                  | **Output** |     | **Input**                  | **Output**                                                                       |
+| ------------------------------------------ | ---------- | --- | -------------------------- | -------------------------------------------------------------------------------- |
+| **7**10<br>20<br>30<br>10<br>5<br>10<br>20 | 105        |     |**4** 250<br>10<br>20<br>40 | Insufficient capacity!<br>Insufficient capacity!<br>Insufficient capacity!<br>250|
 
 1.
 ## Beer Kegs
