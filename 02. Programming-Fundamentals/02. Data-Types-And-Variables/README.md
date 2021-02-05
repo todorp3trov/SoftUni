@@ -4,8 +4,7 @@ Problems for exercises and homework for the [&quot;Technology Fundamentals&quot;
 
 You can check your solutions in [Judge.](https://judge.softuni.bg/Contests/1228)
 
-1.
-## Integer Operations
+## 1. Integer Operations
 
 Read **four integer** numbers.
 Add first to the second, divide (integer) the sum by the third number and multiply the result by the fourth number. Print the result.
@@ -19,12 +18,9 @@ Add first to the second, divide (integer) the sum by the third number and multip
 
 ### Examples
 
-| **Input** | **Output** |
- | **Input** | **Output** |
-| --- | --- | --- | --- | --- |
-| 102033
- | 30 |
- | 151423 | 42 |
+| **Input**          | **Output** | | **Input**           | **Output** |
+| ------------------ | ---------- | |-------------------- | ---------- |
+| 10<br>20<br>3<br>3 | 30         | | 15<br>14<br>2<br>3  | 42         |
 
 1.
 ## Sum Digits
