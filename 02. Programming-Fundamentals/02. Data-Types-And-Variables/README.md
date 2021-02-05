@@ -54,7 +54,7 @@ The input holds two lines:the **number of people n** and the **capacity p** of t
 - Another approach is to round up **n**** / ****p** to the nearest integer (ceiling), e.g. 17/3 = 5.67  rounds up to 6.
 - Sample code for the round-up calculation:
 
-![image](C:\Users\scyth\Desktop\Fundamentals_02_Help.png)
+![image info](C:\Users\scyth\Desktop\Fundamentals_02_Help.png)
 
 1.
 ## Sum of Chars
