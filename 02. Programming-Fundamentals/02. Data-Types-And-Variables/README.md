@@ -166,8 +166,7 @@ On the last line, **print** only the **liters** in the **tank**.
 | Input | Output | Input | Output |
 | 7<br>10<br>20<br>30<br>10<br>5<br>10<br>20 | 105 | 4<br>250<br>10<br>20<br>40 | Insufficient capacity!<br>Insufficient capacity!<br>Insufficient capacity!<br>Insufficient capacity!<br>250 |
 
-1.
-## Beer Kegs
+## 8. Beer Kegs
 
 Write a program, which calculates the volume of **n** beer kegs.
 You will receive in total **3 \* n** lines. **Each three lines** will hold **information** for a **single** keg.
@@ -197,16 +196,11 @@ Print the **model** of the **biggest** keg.
 
 ### Examples
 
-| **Input** | **Output** |
- | **Input** | **Output** |
-| --- | --- | --- | --- | --- |
-| **3** Keg 11010Keg 22020Keg 31030 | Keg 2 |
- | **2** Smaller Keg2.4110Bigger Keg5.1220
- | Bigger Keg
- |
+| Input                                                            | Output |   | Input                                                      | Output     |
+|------------------------------------------------------------------|--------|---|------------------------------------------------------------|------------|
+| 3<br>Keg 1<br>10<br>10<br>Keg 2<br>20<br>20<br>Keg 3<br>10<br>30 | Keg 2  |   | 2<br>Smaller Keg<br>2.41<br>10<br>Bigger Keg<br>5.12<br>20 | Bigger Keg |
 
-1.
-## \*Spice Must Flow
+## 9. \*Spice Must Flow
 
 _Spice is Love, Spice is Life. And most importantly, Spice must flow. It must be extracted from the scorching sands of Arrakis, under constant threat of giant sand worms. To make the work as efficient as possible, the Duke has tasked you with the creation of a management software._
 
@@ -232,27 +226,26 @@ Print on the console on **two separate lines** how many **days** the mine has op
 
 ### Examples
 
-| **Input** | **Output** | **Explanation** |
-| --- | --- | --- |
-| 111 | 2134 | **Day 1** we extract 111 spice and at the end of the shift, the workers consume 26, leaving 85. The yield drops by 10 to 101. **Day 2** we extract 101 spice, the workers consume 26, leaving 75. The total is 160 and the yield has dropped to 91. **Since** the expected yield is less than 100, we abandon the source. The workers take another 26, leaving 134. The mine has operated 2 days. |
+| Input | Output | Explanation |
+|-|-|-|
+| 111 | 2<br>134 | Day 1 we extract 111 spice and at the end of the shift, <br>the workers consume 26, leaving 85. The yield drops by 10 to 101. <br>Day 2 we extract 101 spice, the workers consume 26, leaving <br>75. The total is 160 and the yield has dropped to 91.<br>Since the expected yield is less than 100, we abandon the<br> source. The workers take another 26, leaving 134. The mine has operated 2 days. |
 
-1.
-## \*Poke Mon
+## 10. \*Poke Mon
 
 A Poke Mon is a special type of pokemon which likes to Poke others. But at the end of the day, the Poke Mon wants to keeps statistics, about how many pokes it has managed to make.
 
-The Poke Mon pokes his target, and then proceeds to poke another target. The **distance** between his **targets**** reduces **his** poke power**.
+The Poke Mon pokes his target, and then proceeds to poke another target. The **distance** between his **targets reduces** his **poke power**.
 
 You will be **given** the **poke power** the Poke Mon has, **N** – an **integer**.
 
 Then you will be **given** the **distance** between the **poke targets** , **M** – an **integer**.
 
-Then you will be **given** the **exhaustionFactor**** Y **– an** integer**.
+Then you will be **given** the **exhaustionFactor Y** – an **integer**.
 
-Y ![](RackMultipart20210205-4-gx5sfm_html_eb7189780fa9dcc9.jpg) our task is to start **subtracting**** M **from** N **until** N **becomes** less than M**, i.e. the Poke Mon does not have enough power to reach the next target.
+Your task is to start **subtracting M** from **N** until **N** becomes **less than M**, i.e. the Poke Mon does not have enough power to reach the next target.
 **Every time** you **subtract M** from **N** that means you&#39;ve reached a **target** and poked it successfully. **COUNT** how **many targets** you&#39;ve poked – **you&#39;ll need** that **count**.
 
-The Poke Mon becomes gradually more exhausted. **IF**** N ****becomes equal** to **EXACTLY 50 %** of its **original value** , you must **divide**** N **by** Y **, if it is** POSSIBLE **.** This ****DIVISION** is between **integers**.
+The Poke Mon becomes gradually more exhausted. **IF N becomes equal** to **EXACTLY 50 %** of its **original value** , you must **divide N** by **Y**, if it is **POSSIBLE. This DIVISION** is between **integers**.
 
 If a division is **not possible** , you should **NOT** do it. Instead, you should continue **subtracting**.
 
@@ -279,23 +272,19 @@ When **N** becomes **less** than **M** , you must take **what has remained** of 
 
 ### Constrains
 
-- The integer **N** will be in the **range**** [1, 2.000.000.000]**.
-- The integer **M** will be in the **range**** [1, 1.000.000]**.
-- The integer **Y** will be in the **range**** [0, 9]**.
+- The integer **N** will be in the **range [1, 2.000.000.000]**.
+- The integer **M** will be in the **range [1, 1.000.000]**.
+- The integer **Y** will be in the **range [0, 9]**.
 - Allowed time / memory: **16 MB / 100ms**.
 
 ### Examples
 
-| **Input** | **Output** | **Comments** |
-| --- | --- | --- |
-| 523 | 12
- | N = 5, M = 2, Y = 3.We start **subtracting**** M **from** N **.** N – M = 3 **.** 1 **target poked.** N – M = 1 **.** 2 **targets poked.** N \&lt; M**.
-We print **what has remained** of **N** , which is **1**.We print the **count of targets** , which is **2**. |
-| 1052 | 21
- | N = 10, M = 5, Y = 2.We start **subtracting**** M **from** N **.** N ****–**** M **=** 5**. (N is still not less than M, they are equal).**N **became** EXACTLY ****50 %** of its **original value**. **5** is **50 %** from **10**. So we divide **N** by **Y**. **N / Y** = **5 / 2** = **2**. ( **INTEGER DIVISION** ). |
+| Input | Output | Comments |
+|-|-|-|
+| 5<br>2<br>3 | 1<br>2 | N = 5, M = 2, Y = 3.<br>We start subtracting M from N.<br>N – M = 3. 1 target poked.<br>N – M = 1. 2 targets poked.<br>N < M.<br>We print what has remained of N, which is 1.<br>We print the count of targets, which is 2. |
+| 10<br>5<br>2 | 2<br>1 | N = 10, M = 5, Y = 2.<br>We start subtracting M from N.<br>N – M = 5. (N is still not less than M, they are equal).<br>N became EXACTLY 50 % of its original value.<br>5 is 50 % from 10. So we divide N by Y.<br>N / Y = 5 / 2 = 2. (INTEGER DIVISION). |
 
-1.
-## \*Snowballs
+## 11. \*Snowballs
 
 Tony and Andi love playing in the snow and having snowball fights, but they always argue which makes the best snowballs. Тhey have decided to involve you in their fray, by making you write a program which calculates snowball data, and outputs the best snowball value.
 
@@ -334,17 +323,7 @@ At the end you must print the **highest** calculated **snowballValue**.
 
 ### Examples
 
-| **Input** | **Output** |
-| --- | --- |
-| 21023555 | 10 : 2 = 125 (3) |
-| 3105716422022 | 10 : 5 = 128 (7) |
-
-![](RackMultipart20210205-4-gx5sfm_html_63c6245aa4940ad8.gif) ![](RackMultipart20210205-4-gx5sfm_html_5f0f2ddacbac70d2.gif) ![](RackMultipart20210205-4-gx5sfm_html_51bd00be29b85496.gif) ![](RackMultipart20210205-4-gx5sfm_html_f746d52952cd7e91.gif)[![](RackMultipart20210205-4-gx5sfm_html_3aa486326bfa75e9.png)](https://softuni.org/)
-
-Follow us:
-
-© SoftUni – [about.softuni.bg](https://about.softuni.bg/). Copyrighted document. Unauthorized copy, reproduction or use is not permitted.
-
-[![](RackMultipart20210205-4-gx5sfm_html_9b17934bfedeb713.png)](https://softuni.org/)[![](RackMultipart20210205-4-gx5sfm_html_c9db196993f48ff8.png)](https://softuni.bg/)[![Software University @ Facebook](RackMultipart20210205-4-gx5sfm_html_94be3df36d913358.png)](https://www.facebook.com/softuni.org)[![](RackMultipart20210205-4-gx5sfm_html_7e8e605369b4ad74.png)](https://www.instagram.com/softuni_org)[![Software University @ Twitter](RackMultipart20210205-4-gx5sfm_html_ff9c629b0a21eb6b.png)](https://twitter.com/SoftUni1)[![Software University @ YouTube](RackMultipart20210205-4-gx5sfm_html_7db86a748da0e575.png)](https://www.youtube.com/channel/UCqvOk8tYzfRS-eDy4vs3UyA)[![](RackMultipart20210205-4-gx5sfm_html_95554caa563bbdb3.png)](https://www.linkedin.com/company/softuni/)[![](RackMultipart20210205-4-gx5sfm_html_4df51bfadcab813.png)](https://github.com/SoftUni)[![Software University: Email Us](RackMultipart20210205-4-gx5sfm_html_d7fa82ab7332f3fa.png)](mailto:info@softuni.org)
-
-Page 10 of 10
+| Input                                             | Output           |
+|---------------------------------------------------|------------------|
+| 2<br>10<br>2<br>3<br>5<br>5<br>5                  | 10 : 2 = 125 (3) |
+| 3<br>10<br>5<br>7<br>16<br>4<br>2<br>20<br>2<br>2 | 10 : 5 = 128 (7) |
