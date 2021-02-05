@@ -18,9 +18,9 @@ Add first to the second, divide (integer) the sum by the third number and multip
 
 ### Examples
 
-| **Input**          | **Output** | | **Input**           | **Output** |
-| ------------------ | ---------- | |-------------------- | ---------- |
-| 10<br>20<br>3<br>3 | 30         | | 15<br>14<br>2<br>3  | 42         |
+| **Input**          | **Output** |  |   |  | **Input**           | **Output** |
+| ------------------ | ---------- |  |   |  |-------------------- | ---------- |
+| 10<br>20<br>3<br>3 | 30         |  |   |  | 15<br>14<br>2<br>3  | 42         |
 
 1.
 ## Sum Digits
