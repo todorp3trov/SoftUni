@@ -22,33 +22,30 @@ Add first to the second, divide (integer) the sum by the third number and multip
 | ------------------ | ---------- | --- |-------------------- | ---------- |
 | 10<br>20<br>3<br>3 | 30         |     | 15<br>14<br>2<br>3  | 42         |
 
-1.
-## Sum Digits
+## 2. Sum Digits
 
 You will be given a single **integer**. Your task is to find the **sum of its digits**.
 
 ### Examples
 
 | **Input** | **Output** |
-| --- | --- |
-| 245678 | 32 |
-| 97561 | 28 |
-| 543 | 12 |
+| --------- | ---------- |
+| 245678    | 32         |
+| 97561     | 28         |
+| 543       | 12         |
 
-1.
-## Elevator
+## 3. Elevator
 
 Calculate how many courses will be needed to **elevate n persons** by using an elevator with **capacity of p persons**.
 The input holds two lines:the **number of people n** and the **capacity p** of the elevator.
 
 ### Examples
 
-| **Input** | **Output** | **Comments** |
-| --- | --- | --- |
-| 173 | 6 | 5 courses \* 3 people
-+ 1 course \* 2 persons |
-| 45 | 1 | All the persons fit inside in the elevator.Only one course is needed. |
-| 105 | 2 | 2 courses \* 5 people |
+| **Input** | **Output** | **Comments**                                                           |
+| --------- | ---------- | ---------------------------------------------------------------------- |
+| 173       | 6          | 5 courses \* 3 people + 1 course \* 2 persons                          |
+| 45        | 1          | All the persons fit inside in the elevator. Only one course is needed. |
+| 105       | 2          | 2 courses \* 5 people                                                  |
 
 ### Hints
 
@@ -57,7 +54,7 @@ The input holds two lines:the **number of people n** and the **capacity p** of t
 - Another approach is to round up **n**** / ****p** to the nearest integer (ceiling), e.g. 17/3 = 5.67  rounds up to 6.
 - Sample code for the round-up calculation:
 
-![](RackMultipart20210205-4-gx5sfm_html_55dd39e245d8883a.png)
+![image](RackMultipart20210205-4-gx5sfm_html_55dd39e245d8883a.png)
 
 1.
 ## Sum of Chars
