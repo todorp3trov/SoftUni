@@ -140,14 +140,14 @@ Trifon has finally become a junior developer and has received his first task. It
 
 The array may be manipulated by one of the following commands:
 
-- **exchange {index}** – splits the array **after** the given index and exchanges the places of the two resulting subarrays. E.g. [1, 2, 3, 4, 5] -\&gt; **exchange 2** -\&gt; result: **[4, 5, 1, 2, 3]**
+- **exchange {index}** – splits the array **after** the given index and exchanges the places of the two resulting subarrays. E.g. [1, 2, 3, 4, 5] -> **exchange 2** -> result: **[4, 5, 1, 2, 3]**
   - If the index is outside the boundaries of the array, print &quot; **Invalid index**&quot;.
-- **max**** even/odd **– returns the** INDEX**of the max even/odd element -\&gt; [1, 4, 8, 2, 3] -\&gt;**max odd **-\&gt; print** 4**
-- **min**** even/odd **– returns the** INDEX**of the min even/odd element -\&gt; [1, 4, 8, 2, 3] -\&gt;**min even **\&gt; print** 3**
+- **max**** even/odd **– returns the** INDEX**of the max even/odd element -> [1, 4, 8, 2, 3] -> **max odd ** ->; print** 4**
+- **min**** even/odd **– returns the** INDEX**of the min even/odd element -> [1, 4, 8, 2, 3] -> **min even ** -> print** 3**
   - If there are two or more equal **min/max** elements, return the index of the **rightmost** one.
   - If a **min/max even/odd** element **cannot** be found, print **&quot;No matches&quot;**.
-- **first {count}**** even/odd**– returns the first {count} elements -\&gt; [1, 8, 2, 3] -\&gt;**first 2 even **-\&gt; print** [8, 2]**
-- **last {count}**** even/odd**– returns the last {count} elements -\&gt; [1, 8, 2, 3] -\&gt;**last 2 odd **-\&gt; print** [1, 3]**
+- **first {count}**** even/odd**– returns the first {count} elements -> [1, 8, 2, 3] -> **first 2 even ** -> print** [8, 2]**
+- **last {count}**** even/odd**– returns the last {count} elements -> [1, 8, 2, 3] -> **last 2 odd * -> print** [1, 3]**
   - If the count is greater than the array length, print &quot; **Invalid count**&quot;.
   - If there are **not**** enough **elements to satisfy the count, print as many as you can. If there are** zero ****even/odd** elements, print an empty array **&quot;[]&quot;**.
 - **end** – stop taking input and print the final state of the array.
