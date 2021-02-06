@@ -47,7 +47,7 @@ On the **next lines** you will receive commands **until** you receive the **comm
 
 ## Output
 
-**The output** should be printed on the console and consist **element of the modified array – separated by &quot;, &quot; ( **comma and single space** ).
+**The output** should be printed on the console and consist **element of the modified array – separated by &quot;, &quot;** ( **comma and single space** ).
 
 ## Constraints
 
@@ -77,7 +77,8 @@ Print the above described numbers on a single line, space separated. If **less t
 
 ## Constraints
 
-All input numbers are integers in range [-1 000 000 … 1 000 000]. The count of numbers is in range [1…10 000].
+All input numbers are integers in range [-1 000 000 … 1 000 000]. 
+The count of numbers is in range [1…10 000].
 
 ## Examples
 
