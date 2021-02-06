@@ -149,7 +149,7 @@ The array may be manipulated by one of the following commands:
 - **first {count} even/odd** – returns the first {count} elements -> [1, 8, 2, 3] -> **first 2 even** -> print **[8, 2]**
 - **last {count} even/odd** – returns the last {count} elements -> [1, 8, 2, 3] -> **last 2 odd** -> print **[1, 3]**
   - If the count is greater than the array length, print &quot; **Invalid count**&quot;.
-  - If there are **not** enough** elements to satisfy the count, print as many as you can. If there are **zero even/odd** elements, print an empty array **&quot;[]&quot;**.
+  - If there are **not enough** elements to satisfy the count, print as many as you can. If there are **zero even/odd** elements, print an empty array **&quot;[]&quot;**.
 - **end** – stop taking input and print the final state of the array.
 
 ### Input
