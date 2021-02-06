@@ -106,7 +106,7 @@ The clone factory in Kamino got another order to clone troops. But this time you
 
 You will receive the **DNA length** and until you receive the command **&quot;Clone them!&quot;** you will be receiving a **DNA sequences of ones and zeroes, split by &quot;!&quot; (one or several).**
 
-You should select the sequence with the **longest subsequence of ones**. If there are several sequences with **same length of**** subsequence of ones **, print the one with the** leftmost ****starting index** , if there are several sequences with same **length and starting index** , select the sequence with the **greater sum** of its elements.
+You should select the sequence with the **longest subsequence of ones**. If there are several sequences with **same length of subsequence of ones**, print the one with the **leftmost starting index** , if there are several sequences with same **length and starting index** , select the sequence with the **greater sum** of its elements.
 
 After you receive the last command **&quot;Clone them!&quot;** you should print the collected information in the following format:
 
@@ -137,7 +137,7 @@ The output should be printed on the console and consists of two lines in the fol
 
 ## 10. \*LadyBugs
 
-You are **given a field size** and the **indexes of ladybugs** inside the field. After that on every new line **until the &quot;end&quot; command** is given, a **ladybug changes its position** either to its **left or to its right**** by a given fly length**.
+You are **given a field size** and the **indexes of ladybugs** inside the field. After that on every new line **until the &quot;end&quot; command** is given, a **ladybug changes its position** either to its **left or to its right by a given fly length**.
 
 A **command to a ladybug** looks like this: &quot; **0 right 1**&quot;. This means that the little insect placed on index 0 should fly one index to its right. If the ladybug **lands on a fellow ladybug** , it **continues to fly** in the same direction **by the same fly length**. If the ladybug **flies out of the field, it is gone**.
 
