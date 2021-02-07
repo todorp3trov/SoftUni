@@ -37,9 +37,9 @@ There are several types of instructions, split by **&quot;>>>&quot;** :
 | Input | Output |
 |-|-|
 | abcdefghijklmnopqrstuvwxyz<br>Slice>>>2>>>6<br>Flip>>>Upper>>>3>>>14<br>Flip>>>Lower>>>5>>>7<br>Contains>>>def<br>Contains>>>deF<br>Generate | abghijklmnopqrstuvwxyz<br>abgHIJKLMNOPQRstuvwxyz<br>abgHIjkLMNOPQRstuvwxyz<br>Substring not found!<br>Substring not found!<br>Your activation key is: abgHIjkLMNOPQRstuvwxyz |
-| Comment |  |
+| **Comment** |  |
 | 1. Slice>>2>>6 <br>abcdefghijklmnopqrstuvwxyz becomes abghijklmnopqrstuvwxyz<br>2. Flip>>>Upper>>>3>>>14<br>abghijklmnopqrstuvwxyz becomes abgHIJKLMNOPQRstuvwxyz<br>3. Flip>>>Lower>>>5>>>7<br>abgHIJKLMNOPQRstuvwxyz becomes abgHIjkLMNOPQRstuvwxyz<br>4. Contains>>>def<br>abgHIjkLMNOPQRstuvwxyz does not contain def<br>5. Contains>>>deF<br>abgHIjkLMNOPQRstuvwxyz does not contain deF<br>The final activation key is abgHIjkLMNOPQRstuvwxyz |  |
-| Input | Output |
+| **Input** | **Output** |
 | 134softsf5ftuni2020rockz42<br>Slice>>>3>>>7<br>Contains>>>-rock<br>Contains>>>-uni-<br>Contains>>>-rocks<br>Flip>>>Upper>>>2>>>8<br>Flip>>>Lower>>>5>>>11<br>Generate | 134sf5ftuni2020rockz42<br>Substring not found!<br>Substring not found!<br>Substring not found!<br>134SF5FTuni2020rockz42<br>134SF5ftuni2020rockz42<br>Your activation key is: 134SF5ftuni2020rockz42 |
 
 ## Problem 2. Emoji Detector
