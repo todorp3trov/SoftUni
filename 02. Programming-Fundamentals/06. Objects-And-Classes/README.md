@@ -95,18 +95,18 @@ Write a program that receives **n count of students** and **orders them by grade
 
 You have to make a catalogue for vehicles. You will receive two types of vehicle - **car** or **truck**.
 
-Until you receive the command &quot; **End**&quot; you will receive **lines** of **input** in the format:
+Until you receive the command &quot;**End**&quot; you will receive **lines** of **input** in the format:
 
 **{typeOfVehicle} {model} {color} {horsepower}**
 
-After the &quot; **End**&quot; command, you will start receiving **models** of **vehicles**. Print for every received vehicle its **data** in the format:
+After the &quot;**End**&quot; command, you will start receiving **models** of **vehicles**. Print for every received vehicle its **data** in the format:
 
 **Type: {typeOfVehicle} 
 Model: {modelOfVehicle} 
 Color: {colorOfVehicle} 
 Horsepower: {horsepowerOfVehicle}**
 
-When you receive the command &quot; **Close the Catalogue**&quot;, stop receiving input and print the **average horsepower** for the **cars** and for the **trucks** in the format:
+When you receive the command &quot;**Close the Catalogue**&quot;, stop receiving input and print the **average horsepower** for the **cars** and for the **trucks** in the format:
 
 **&quot;{typeOfVehicles} have average horsepower of {averageHorsepower}.&quot;**
 
@@ -132,7 +132,7 @@ Format the answer to the **2nd decimal point**.
 
 You will receive an **unknown** number of lines. On each line, you will receive an array with **3** elements. **The first** element will be **string** and represents the **name** of the person. **The second** element will be a **string** and will represent the **ID** of the person. **The last** element will be an **integer** which represents the **age** of the person.
 
-When you receive the command &quot; **End**&quot;, stop taking input and print **all the people, ordered by age**.
+When you receive the command &quot;**End**&quot;, stop taking input and print **all the people, ordered by age**.
 
 ### Examples
 
