@@ -72,17 +72,17 @@ Write a program, which keeps information about **products** and their **prices**
 
 If you receive a product, which **already exists, increase** its quantity by the input quantity and if its **price is different, replace** the price as well.
 
-You will receive products&#39; **names** , **prices** and **quantities** on **new lines**.Until you receive the command &quot; **buy**&quot;, keep adding items. When you do receive the command &quot; **buy**&quot;, print the items with their **names** and **total price** of all the products with that name.
+You will receive products&#39; **names** , **prices** and **quantities** on **new lines**.Until you receive the command &quot;**buy**&quot;, keep adding items. When you do receive the command &quot;**buy**&quot;, print the items with their **names** and **total price** of all the products with that name.
 
 **Input**
 
-- Until you receive &quot; **buy**&quot;, the products come in the format: &quot; **{name} {price} {quantity}**&quot;
+- Until you receive &quot;**buy**&quot;, the products come in the format: &quot; **{name} {price} {quantity}**&quot;
 - The product data is **always** delimited by a **single space**
 
 **Output**
 
 - Print information about **each product**, following the format:
-&quot; **{productName} -> {totalPrice}**&quot;
+&quot;**{productName} -> {totalPrice}**&quot;
 - **Format** the average grade to the **2nd decimal place**
 
 ### Examples
@@ -101,28 +101,28 @@ Write a program, which validates parking for an online service. Users can **regi
 
 The program **receives 2 commands** :
 
-- &quot; **register {username} {licensePlateNumber}**&quot;:
+- &quot;**register {username} {licensePlateNumber}**&quot;:
   - The system only supports **one car per user** at the moment, so if a user tries to register **another license plate** , using the **same username** , the system should print:
-&quot; **ERROR: already registered with plate number {licensePlateNumber}**&quot;
+&quot;**ERROR: already registered with plate number {licensePlateNumber}**&quot;
   - If the aforementioned checks pass successfully, the plate can be registered, so the
 system should print:
-&quot; **{username} registered {licensePlateNumber} successfully**&quot;
-- &quot; **unregister {username}**&quot;:
+&quot;**{username} registered {licensePlateNumber} successfully**&quot;
+- &quot;**unregister {username}**&quot;:
   - If the user is **not present** in the database, the system should print:
-&quot; **ERROR: user {username} not found**&quot;
+&quot;**ERROR: user {username} not found**&quot;
   - If the aforementioned check passes successfully, the system should print:
-&quot; **{username} unregistered successfully**&quot;
+&quot;**{username} unregistered successfully**&quot;
 
 After you execute all of the commands, **print** all the currently **registered users** and their **license plates** in the format:
 
-- &quot; **{username} => {licensePlateNumber}**&quot;
+- &quot;**{username} => {licensePlateNumber}**&quot;
 
 ### Input
 
 - First line: **n** - **number of commands** - **integer**
 - Next **n** lines: **commands** in one of **two** possible formats:
-  - Register: &quot; **register {username} {licensePlateNumber}**&quot;
-  - Unregister: &quot; **unregister {username}**&quot;
+  - Register: &quot;**register {username} {licensePlateNumber}**&quot;
+  - Unregister: &quot;**unregister {username}**&quot;
 
 The input will **always** be **valid** and you **do not need** to check it explicitly.
 
@@ -138,11 +138,11 @@ The input will **always** be **valid** and you **do not need** to check it expli
 
 Write a program, which keeps information about **courses**. Each course has a **name** and **registered students**.
 
-You will receive **course name** and **student name**, until you receive the command &quot;**end**&quot;. **Check if such course already exists, and if not - add the course.** Register the user into the course. When you do receive the command &quot; **end**&quot;, print the courses with their **names** and **total registered users** , ordered by the count of registered users in **descending** order. For each contest print registered users ordered by name in **ascending** order.
+You will receive **course name** and **student name**, until you receive the command &quot;**end**&quot;. **Check if such course already exists, and if not - add the course.** Register the user into the course. When you do receive the command &quot;**end**&quot;, print the courses with their **names** and **total registered users** , ordered by the count of registered users in **descending** order. For each contest print registered users ordered by name in **ascending** order.
 
 **Input**
 
-- Until you receive &quot; **end**&quot;, the input come in the format: &quot; **{courseName} : {studentName}**&quot;
+- Until you receive &quot;**end**&quot;, the input come in the format: &quot;**{courseName} : {studentName}**&quot;
 - The product data is **always** delimited by &quot; : &quot;
 
 **Output**
@@ -199,7 +199,7 @@ Print the company name and each employee&#39;s id in the following format:
 
 **Input / Constraints**
 
-- Until you receive &quot; **End**&quot;, the input come in the format: &quot; **{companyName} -> {employeeId}**&quot;
+- Until you receive &quot;**End**&quot;, the input come in the format: &quot;**{companyName} -> {employeeId}**&quot;
 - The input **always** will be valid
 
 ### Examples
