@@ -132,7 +132,7 @@ The output should be printed on the console and consists of two lines in the fol
 | Input | Output | Comments |
 |-|-|-|
 | 5<br>1!0!1!1!0<br>0!1!1!0!0<br>Clone them! | Best DNA sample 2 with sum: 2.<br>0 1 1 0 0 | We receive 2 sequences with same length of<br>subsequence of ones, but the second is printed,<br>because its subsequence starts at index[1]. |
-| Input | Output | Comments |
+| **Input** | **Output** | **Comments** |
 | 4<br>1!1!0!1<br>1!0!0!1<br>1!1!0!0<br>Clone them! | Best DNA sample 1 with sum: 3.<br>1 1 0 1 | We receive 3 sequences. Both 1 and 3 have same <br>length of subsequence of ones -> 2, and both start <br>from index[0], but the first is printed, because its <br>sum is greater. |
 
 ## 10. \*LadyBugs
