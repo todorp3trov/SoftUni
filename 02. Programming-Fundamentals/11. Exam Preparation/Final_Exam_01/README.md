@@ -21,7 +21,7 @@ On the first line of the input you will receive the **encrypted message**. After
 ### Output
 
 - After the **&quot;Decode&quot;** command is received, print this message:
-&quot; **The decrypted message is: {message}**&quot;
+&quot;**The decrypted message is: {message}**&quot;
 
 ### Examples
 
@@ -94,7 +94,7 @@ Then, you will be receiving different **commands** , each on a new line, separat
   - If the piece **is already in the collection** , print:
 &quot;**{piece} is already in the collection!**&quot;
   - If the piece is **not in the collection** , print:
-&quot; **{piece} by {composer} in {key} added to the collection!&quot;**
+&quot;**{piece} by {composer} in {key} added to the collection!&quot;**
 - **Remove|{piece}**
   - If the piece is in the collection, **remove it** and print:
 **&quot;Successfully removed {piece}!&quot;**
@@ -102,13 +102,13 @@ Then, you will be receiving different **commands** , each on a new line, separat
 **&quot;Invalid operation! {piece} does not exist in the collection.&quot;**
 
 - **ChangeKey|{piece}|{new key}**
-- - If the piece is in the collection, **change its key with the given one** and print:
+   - If the piece is in the collection, **change its key with the given one** and print:
 **&quot;Changed the key of {piece} to {new key}!&quot;**
   - If the piece is **not in the collection** , print:
 **&quot;Invalid operation! {piece} does not exist in the collection.&quot;**
 
 Upon receiving the **&quot;Stop&quot;** command you need to print all pieces in your collection, sorted by their **name and by the name of their composer in alphabetical order** , in the following format:
-&quot; **{Piece} -> Composer: {composer}, Key: {key}**&quot;
+&quot;**{Piece} -> Composer: {composer}, Key: {key}**&quot;
 
 ### Input/Constraints
 
