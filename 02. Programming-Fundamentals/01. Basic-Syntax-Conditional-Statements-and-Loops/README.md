@@ -25,7 +25,7 @@ Write a program that determines whether based on the given age a person is: baby
 
 ## 2. Division
 
-You will be given an integer and you have to print on the console whether that number is divisible by the following numbers: 2, 3, 6, 7, 10. You should **always take the bigger division**. If the number is divisible by both **2** and **3** it is also divisible by **6** and you should print only the division by 6. If a number is divisible by **2** it is sometimes also divisible by **10** and you should print the division by 10. If the number is not divisible by any of the given numbers print &quot; **Not divisible&quot;.** Otherwise print &quot; **The number is divisible by {number}**&quot;.
+You will be given an integer and you have to print on the console whether that number is divisible by the following numbers: 2, 3, 6, 7, 10. You should **always take the bigger division**. If the number is divisible by both **2** and **3** it is also divisible by **6** and you should print only the division by 6. If a number is divisible by **2** it is sometimes also divisible by **10** and you should print the division by 10. If the number is not divisible by any of the given numbers print &quot;**Not divisible&quot;.** Otherwise print &quot;**The number is divisible by {number}**&quot;.
 
 ### Examples
 
@@ -38,7 +38,7 @@ You will be given an integer and you have to print on the console whether that n
 
 ## 3. Vacation
 
-You are given a group of people, type of the group, on which day of the week they are going to stay. Based on that information calculate how much they have to pay and print that price on the console. Use the table below. In each cell is the price for a **single person**. The output should look like that: &quot; **Total price: {price}**&quot;. The price should be formatted to the second decimal point.
+You are given a group of people, type of the group, on which day of the week they are going to stay. Based on that information calculate how much they have to pay and print that price on the console. Use the table below. In each cell is the price for a **single person**. The output should look like that: &quot;**Total price: {price}**&quot;. The price should be formatted to the second decimal point.
 
 |              | **Friday** | **Saturday** | **Sunday** |
 | ------------ | ---------- | ------------ | ---------- |
@@ -75,7 +75,7 @@ Write a program to display numbers from given start to given end and their sum. 
 
 ## 5. Login
 
-You will be given a string representing a username. The password will be that username reversed. Until you receive the correct password print on the console &quot; **Incorrect password. Try again.**&quot;. When you receive the correct password print &quot; **User {username} logged in.**&quot; However on the fourth try if the password is still not correct print &quot; **User {username} blocked!**&quot; and end the program.
+You will be given a string representing a username. The password will be that username reversed. Until you receive the correct password print on the console &quot;**Incorrect password. Try again.**&quot;. When you receive the correct password print &quot;**User {username} logged in.**&quot; However on the fourth try if the password is still not correct print &quot;**User {username} blocked!**&quot; and end the program.
 
 ### Examples
 
@@ -87,7 +87,7 @@ You will be given a string representing a username. The password will be that us
 
 ## 6. Strong Number
 
-Write a program to check if a given number is a strong number or not. A number is strong if the sum of the Factorial of each digit is equal to the number. For example 145 is a strong number, because **1! + 4! + 5! = 145.** Print &quot; **yes**&quot; if the number is strong and &quot; **no**&quot; if the number is not strong.
+Write a program to check if a given number is a strong number or not. A number is strong if the sum of the Factorial of each digit is equal to the number. For example 145 is a strong number, because **1! + 4! + 5! = 145.** Print &quot;**yes**&quot; if the number is strong and &quot;**no**&quot; if the number is not strong.
 
 ### Examples
 
@@ -99,7 +99,7 @@ Write a program to check if a given number is a strong number or not. A number i
 
 ## 7. Vending Machine
 
-You task is to calculate the total price of a purchase from a vending machine. Until you receive &quot; **Start**&quot; you will be given different coins that are being inserted in the machine. You have to sum them in order to have the total money inserted. There is a problem though. Your vending machine only works with **0.1** , **0.2** , **0.5, 1, and 2** coins. If someone tries to insert some other coins you have to display &quot; **Cannot accept {money}**&quot;, where the value is **formated to the second digit after the decimal point** and **not** add it to the total money. On the next few lines until you receive &quot; **End**&quot; you will be given products to purchase. Your machine has however only &quot; **Nuts**&quot;, &quot; **Water**&quot;, &quot; **Crisps**&quot;, &quot; **Soda**&quot;, &quot; **Coke**&quot;. The prices are: **2.0** , **0.7** , **1.5** , **0.8** , **1.0** respectively. If the person tries to purchase a not existing product print &quot; **Invalid product**&quot;. Be careful that the person may try to purchase a product for which he doesn&#39;t have money. In that case print &quot; **Sorry, not enough money**&quot;. If the person purchases a product successfully print &quot; **Purchased {product name}**&quot;. After the &quot;End&quot; command print the money that are left formatted to the second decimal point in the format &quot; **Change: {money left}**&quot;.
+You task is to calculate the total price of a purchase from a vending machine. Until you receive &quot;**Start**&quot; you will be given different coins that are being inserted in the machine. You have to sum them in order to have the total money inserted. There is a problem though. Your vending machine only works with **0.1** , **0.2** , **0.5, 1, and 2** coins. If someone tries to insert some other coins you have to display &quot;**Cannot accept {money}**&quot;, where the value is **formated to the second digit after the decimal point** and **not** add it to the total money. On the next few lines until you receive &quot;**End**&quot; you will be given products to purchase. Your machine has however only &quot;**Nuts**&quot;, &quot;**Water**&quot;, &quot;**Crisps**&quot;, &quot;**Soda**&quot;, &quot;**Coke**&quot;. The prices are: **2.0** , **0.7** , **1.5** , **0.8** , **1.0** respectively. If the person tries to purchase a not existing product print &quot;**Invalid product**&quot;. Be careful that the person may try to purchase a product for which he doesn&#39;t have money. In that case print &quot;**Sorry, not enough money**&quot;. If the person purchases a product successfully print &quot;**Purchased {product name}**&quot;. After the &quot;End&quot; command print the money that are left formatted to the second decimal point in the format &quot;**Change: {money left}**&quot;.
 
 ### Examples
 
@@ -138,16 +138,16 @@ The input data should be read from the console. It will consist of **exactly 5 l
 - The **price of robes** for a **single robe – floating-point number** in **range [0.00…100.00]**
 - The **price of belts** for a **single belt – floating-point number** in **range [0.00…100.00]**
 
-The **input data will always be valid**. **There is no need to check it explicitly**.
+**The input data will always be valid**. **There is no need to check it explicitly**.
 
 ### Output
 
 The output should be printed on the console.
 
 - **If the calculated price of the equipment is less or equal to the money Ivan Cho has:**
-  - &quot; **The money is enough - it would cost {the cost of the equipment}lv.**&quot;
+  - &quot;**The money is enough - it would cost {the cost of the equipment}lv.**&quot;
 - **If the calculated price of the equipment is more than the money Ivan Cho has:**
-  - &quot; **Ivan Cho will need {neededMoney}lv more.**&quot;
+  - &quot;**Ivan Cho will need {neededMoney}lv more.**&quot;
 - **All prices** must be **rounded to two digits after the decimal point.**
 
 ### Examples
@@ -183,7 +183,6 @@ You will receive the price of each item in his gaming setup. Calculate his rage 
 ### Output
 
 - As output you must print Pesho's total expenses: **&quot;Rage expenses: {expenses} lv.&quot;**
-
 - Allowed working **time** / **memory** : **100ms** / **16MB**.
 
 ### Examples
