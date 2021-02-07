@@ -56,7 +56,7 @@ Every wagon should have **a maximum of 4 people on it**. If a wagon is full you 
 ### Input
 
 - **On the first line** you, will receive **how many people** are waiting to get **on the lift**
-- **On the second line** , you will you will receive the **current state of the lift separated by **&quot; &quot;**.
+- **On the second line** , you will you will receive the **current state of the lift separated by &quot; &quot;**.
 
 ### Output
 
