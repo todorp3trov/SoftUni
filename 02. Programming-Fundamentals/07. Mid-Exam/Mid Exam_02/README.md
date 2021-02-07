@@ -29,11 +29,11 @@ First you will receive 3 lines with integers, representing **count of students t
 
 # Problem 2. Array Modifier
 
-You are given **an array with integers**. Write a program to **modify the elements** after **receive the commands**&quot; **swap**&quot;, &quot; **multiply**&quot; or &quot; **decrease**&quot;.
+You are given **an array with integers**. Write a program to **modify the elements** after **receive the commands**: &quot;**swap**&quot;, &quot;**multiply**&quot; or &quot;**decrease**&quot;.
 
-- &quot; **swap {index1} {index2}**&quot; take **two elements** and **swap their places**.
-- &quot; **multiply {index1} {index2}**&quot; take **element at the 1st index** and **multiply it with element at 2nd index. Save the product at the 1st index.**
-- &quot; **decrease**&quot; **decreases all elements** in the array **with1**.
+- &quot;**swap {index1} {index2}**&quot; take **two elements** and **swap their places**.
+- &quot;**multiply {index1} {index2}**&quot; take **element at the 1st index** and **multiply it with element at 2nd index. Save the product at the 1st index.**
+- &quot;**decrease**&quot; **decreases all elements** in the array **with1**.
 
 ## Input
 
@@ -41,9 +41,9 @@ On the **first input line** you will be given **the initial array values** separ
 
 On the **next lines** you will receive commands **until** you receive the **command &quot;end&quot;**. The **commands are** as follow:
 
-- &quot; **swap {index1} {index2}**&quot;
-- &quot; **multiply {index1} {index2}**&quot;
-- &quot; **decrease**&quot;
+- &quot;**swap {index1} {index2}**&quot;
+- &quot;**multiply {index1} {index2}**&quot;
+- &quot;**decrease**&quot;
 
 ## Output
 
@@ -51,7 +51,7 @@ On the **next lines** you will receive commands **until** you receive the **comm
 
 ## Constraints
 
-- Commands will be: &quot; **swap**&quot;, &quot; **multiply**&quot;, &quot; **decrease**&quot; and &quot; **end**&quot;
+- Commands will be: &quot;**swap**&quot;, &quot;**multiply**&quot;, &quot;**decrease**&quot; and &quot; **end**&quot;
 - **Elements of the array** will be **integer numbers** in the range **[-2****31 ****...2**** 31****]**
 - **Count of the array elements** will be in the range **[2...100]**
 - **Indexes will be always in the range of the array**
