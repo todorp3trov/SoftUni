@@ -6,7 +6,7 @@ You can check your solutions in [Judge.](https://judge.softuni.bg/Contests/1297)
 
 ## 1. Train
 
-On the first line you will be given a **list of wagons** (integers). Each integer represents **the number of passengers that are currently in each wagon**. On the next line you will get **the max capacity of each wagon** (single integer). Until you receive &quot; **end**&quot; you will be given two types of input:
+On the first line you will be given a **list of wagons** (integers). Each integer represents **the number of passengers that are currently in each wagon**. On the next line you will get **the max capacity of each wagon** (single integer). Until you receive &quot;**end**&quot; you will be given two types of input:
 
 - **Add {passengers}** - add a wagon to the end with the given number of passengers
 - **{passengers}** - find an existing wagon to **fit all the passengers** ( **starting from the first wagon** )
@@ -46,7 +46,7 @@ On the **first** input line you are going to receive how many commands you are g
 - **&quot;{name} is going!&quot;**
 - **&quot;{name} is not going!&quot;**
 
-If you receive the first type of input, you have to add the person if he/she **is not** in the list. (If he/she is in the list print on the console: &quot; **{name} is already in the list!**&quot;). If you receive the second type of input, you have to remove the person if he/she **is** in the list. (If not print: &quot; **{name} is not in the list!**&quot;). At the end print all guests.
+If you receive the first type of input, you have to add the person if he/she **is not** in the list. (If he/she is in the list print on the console: &quot;**{name} is already in the list!**&quot;). If you receive the second type of input, you have to remove the person if he/she **is** in the list. (If not print: &quot;**{name} is not in the list!**&quot;). At the end print all guests.
 
 ### Examples
 
@@ -104,8 +104,8 @@ You start from the beginning of both hands. Compare the cards from the first dec
 
 Write a program to **append several arrays** of numbers.
 
-- Arrays are separated by &quot; **|**&quot;
-- Values are separated by spaces (&quot;&quot;, **one or several** )
+- Arrays are separated by &quot;**|**&quot;
+- Values are separated by spaces (&quot; &quot;, **one or several** )
 - Order the arrays from the **last** to the **first** , and their values from **left** to **right**
 
 ### Examples
@@ -141,13 +141,13 @@ If the string **CANNOT** be **exactly divided** into the **given partitions , ma
 
 **Example** : **{abcd, efgh, ijkl} -\&gt; divide 0 3 -\&gt; {a, b, cd, efgh, ijkl}**
 
-The **input ends** when you receive the command &quot; **3:1**&quot;. At that point you must print the **resulting elements** , **joined** by a **space**.
+The **input ends** when you receive the command &quot;**3:1**&quot;. At that point you must print the **resulting elements**, **joined** by a **space**.
 
 ### Input
 
 - The **first input line** will contain the **array** of **data**
 - On the **next several input** lines you will **receive commands** in the **format specified above**
-- The **input ends** when you receive the command &quot; **3:1**&quot;
+- The **input ends** when you receive the command &quot;**3:1**&quot;
 
 ### Output
 
