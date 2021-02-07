@@ -163,7 +163,7 @@ On the last line, **print** only the **liters** in the **tank**.
 | Input | Output | Input | Output |
 |-|-|-|-|
 | 5<br>20<br>100<br>100<br>100<br>20 | Insufficient capacity!<br>20 | 1<br>1000 | Insufficient capacity!<br>0 |
-| Input | Output | Input | Output |
+| **Input** | **Output** | **Input** | **Output** |
 | 7<br>10<br>20<br>30<br>10<br>5<br>10<br>20 | 105 | 4<br>250<br>10<br>20<br>40 | Insufficient capacity!<br>Insufficient capacity!<br>Insufficient capacity!<br>Insufficient capacity!<br>250 |
 
 ## 8. Beer Kegs
