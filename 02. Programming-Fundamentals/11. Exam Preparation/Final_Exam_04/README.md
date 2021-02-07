@@ -4,7 +4,7 @@
 
 _Yet again you have forgotten your password... Naturally it`s not the first time this has happened. Actually you got so tired of it that you decided to help yourself with a smart solution._
 
-Write a password reset program that performs a series of commands upon a predefined string. First, you will receive a string and afterwards, until the command &quot; **Done**&quot; is given, you will be receiving strings with commands split by a single space. The commands will be the following:
+Write a password reset program that performs a series of commands upon a predefined string. First, you will receive a string and afterwards, until the command &quot;**Done**&quot; is given, you will be receiving strings with commands split by a single space. The commands will be the following:
 
 - **TakeOdd**
   - Takes only the characters at **odd indices** and **concatenates** them together to
@@ -28,7 +28,7 @@ Write a password reset program that performs a series of commands upon a predefi
 
 ### Constraints
 
-- The indexes from the &quot; **Cut {index} {length}**&quot; command will always be valid.
+- The indexes from the &quot;**Cut {index} {length}**&quot; command will always be valid.
 
 ### Examples
 
@@ -114,7 +114,7 @@ There are several actions that can be performed by the heroes:
 - If the hero has the required MP, he casts the spell, thus reducing his MP. Print this message:
   - **&quot;{hero name} has successfully cast {spell name} and now has {mana points left} MP!&quot;**
 - If the hero is unable to cast the spell print:
-  - &quot; **{hero name} does not have enough MP to cast {spell name}!**&quot;
+  - &quot;**{hero name} does not have enough MP to cast {spell name}!**&quot;
 
 **TakeDamage – {hero name} – {damage} – {attacker}**
 
