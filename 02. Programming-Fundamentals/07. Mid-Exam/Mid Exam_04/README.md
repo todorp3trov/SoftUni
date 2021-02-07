@@ -76,13 +76,13 @@ _For example, we are given this neighborhood: 6@6@6. Cupid is at the start and j
 ### Input
 
 - On the first line you will receive a **string** with **even integers** separated by **&quot;@&quot;** –the neighborhood and the number of hearts for each house.
-- On the next lines, until &quot; **Love!**&quot; is received, you will be getting jump commands in this format: &quot; **Jump {length}**&quot;.
+- On the next lines, until &quot;**Love!**&quot; is received, you will be getting jump commands in this format: &quot;**Jump {length}**&quot;.
 
 ### Output
 
 At the end print **Cupid&#39;s last position** and whether his mission was successful or not:
 
-- &quot; **Cupid&#39;s last position was {lastPositionIndex}.**&quot;
+- &quot;**Cupid&#39;s last position was {lastPositionIndex}.**&quot;
 - If **each house** has had a Valentine&#39;s day, print:
   - &quot; **Mission was successful.**&quot;
 - If **not,** print the **count** of all houses that **didn`t** celebrate a Valentine&#39;s Day:
