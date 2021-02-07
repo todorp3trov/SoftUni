@@ -24,16 +24,16 @@ On the first line of the input you will receive the **concealed message**. After
 
 - After each set of instructions, print the resulting string.
 - After the **&quot;Reveal&quot;** command is received, print this message:
-&quot; **You have a new text message: {message}**&quot;
+&quot;**You have a new text message: {message}**&quot;
 
 ### Examples
 
 | Input | Output |
 |-|-|
 | heVVodar!gniV<br>ChangeAll:\|:V:\|:l<br>Reverse:\|:!gnil<br>InsertSpace:\|:5<br>Reveal | hellodar!gnil<br>hellodarling!<br>hello darling!<br>You have a new text message: hello darling! |
-| Comment |  |
+| **Comment** |  |
 | ChangeAll:\|:V:\|:l<br>heVVodar!gniV -> hellodar!gnil (We replace all occurrences of "V" with "l")<br>Reverse:\|:!gnil<br>hellodar!gnil -> !gnil -> ling! -> hellodarling! <br>(We reverse !gnil to ling! And put it in the end of the string)<br>InsertSpace:\|:5<br>hellodarling! -> hello.darling! (We insert a space at index 5)<br>Finally, after receiving the "Reveal" command, we print the resulting message. |  |
-| Input | Output |
+| **Input** | **Output** |
 | Hiware?uiy<br>ChangeAll:\|:i:\|:o<br>Reverse:\|:?uoy<br>Reverse:\|:jd<br>InsertSpace:\|:3<br>InsertSpace:\|:7<br>Reveal | Howare?uoy<br>Howareyou?<br>error<br>How areyou?<br>How are you?<br>You have a new text message: How are you? |
 
 ## Problem 2. Mirror words
@@ -98,11 +98,11 @@ Then, you will be receiving different **commands** , each on a new line, separat
 
 - **Drive : {car} : {distance} : {fuel}**
   - You need to **drive the given distance** and you will **need the given** fuel to do that. If the car **doesn`t have enough fuel** print:
-&quot; **Not enough fuel to make that ride**&quot;
+&quot;**Not enough fuel to make that ride**&quot;
   - If the car has the required fuel available in the tank, **increase its mileage** with **the given distance** , **decrease its fuel with the given fuel** and **print** :
-&quot; **{car} driven for {distance} kilometers. {fuel} liters of fuel consumed.**&quot;
+&quot;**{car} driven for {distance} kilometers. {fuel} liters of fuel consumed.**&quot;
   - You like driving new cars only, so if the mileage of a car reaches **100 000** km, remove it from the collection(s). Print:
-&quot; **Time to sell the {car}!**&quot;
+&quot;**Time to sell the {car}!**&quot;
 - **Refuel : {car} : {fuel}**
   - Refill the tank of your car.
   - Each tank can hold a **maximum of 75 liters of fuel** , so if the given amount of fuel is more than you can fit in the tank, take only what is required to fill it up.
