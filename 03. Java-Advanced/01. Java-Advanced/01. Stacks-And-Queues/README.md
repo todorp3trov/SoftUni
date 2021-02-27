@@ -22,7 +22,7 @@ After each instruction the program should print the current URL. If the **back**
 
 ### Hints
 
-- Use **ArrayDeque\&lt;\&gt;**
+- Use **ArrayDeque<>**
 - Use **String** to keep current page
 - Use **push()**, when moving to next page
 - Use **pop()**,when going back
@@ -46,7 +46,7 @@ Solve the problem **using a Stack**.
 - Consider using the **add()** method
 - You can either
   - add the elements and then pop them out
-  - r push them and reverse the stack
+  - or push them and reverse the stack
 
 ## 3. Decimal to Binary Converter
 
@@ -101,7 +101,7 @@ The printer queue is a simple way to control the order of files sent to a printe
 
 ### Hints
 
-- Use an **ArrayDeque\&lt;\&gt;**
+- Use an **ArrayDeque<>**
 - Use **offer()**, when adding file
 - Use **pollFirst()**,when printing file
 
@@ -149,7 +149,7 @@ Each forward instruction visits the next most-recent such URL. If a normal navig
 ### Hints
 
 - Use the solution from Browser History
-- Use **ArrayDequeue\&lt;\&gt;** as queue to keep the forward pages
+- Use **ArrayDequeue<>** as queue to keep the forward pages
 - Use **clear()** method to reset the forward pages
 - Use **addFirst()** when adding page to the forward pages
 
