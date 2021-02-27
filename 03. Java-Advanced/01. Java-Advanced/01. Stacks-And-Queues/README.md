@@ -1,7 +1,163 @@
+# Lab: Stacks and Queues
+
+This document defines the exercises for the [&quot;Java Advanced&quot; course @ Software University](https://softuni.bg/modules/59/java-advanced). You can check your solutions in [Judge](https://judge.softuni.bg/Contests/1437/Stacks-and-Queues-Lab).
+
+# I. Working with Stacks
+
+## 1. Browser History
+
+Write a program which takes 2 types of browser instructions:
+
+- Normal navigation: a URL is set, given by a string
+- The string &quot;**back&quot;** that sets the current URL to the last set URL
+
+After each instruction the program should print the current URL. If the **back** instruction can&#39;t be executed, print
+**&quot;no previous URLs&quot;**.The input ends with **&quot;Home&quot;** command, then simply you have to stop the program.
+
+### Examples
+
+| Input | Output |
+|-|-|
+| https//softuni.bg/<br>back<br>https//softuni.bg/trainings/courses<br>back<br>https//softuni.bg/trainings/2056<br>back<br>https//softuni.bg/trainings/live<br>https//softuni.bg/trainings/live/details<br>Home | https//softuni.bg/<br>no previous URLs<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/<br>https//softuni.bg/trainings/2056<br>https//softuni.bg/<br>https//softuni.bg/trainings/live<br>https//softuni.bg/trainings/live/details |
+
+### Hints
+
+- Use **ArrayDeque\&lt;\&gt;**
+- Use **String** to keep current page
+- Use **push()**, when moving to next page
+- Use **pop()**,when going back
+
+## 2. Simple Calculator
+
+**Create a simple calculator** that can **evaluate simple expressions** that will not hold any operator different from addition and subtraction. There will not be parentheses or operator precedence.
+
+Solve the problem **using a Stack**.
+
+### Examples
+
+| Input              | Output |
+|--------------------|--------|
+| 2 + 5 + 10 - 2 - 1 | 14     |
+| 2 - 2 + 5          | 5      |
+
+### Hints
+
+- Use an **ArrayDeque<>**
+- Consider using the **add()** method
+- You can either
+  - add the elements and then pop them out
+  - r push them and reverse the stack
+
+## 3. Decimal to Binary Converter
+
+Create a simple program that **can convert a decimal number to its binary representation**. Implement an elegant solution **using a Stack**.
+
+**Print the binary representation** back at the terminal.
+
+### Examples
+
+| Input | Output      |
+|-------|-------------|
+| 10    | 1010        |
+| 1024  | 10000000000 |
+
+### Hints
+- If the given number is 0, just print 0
+- Else, while the number is greater than zero, divide it by 2 and push the reminder into the stack
+- When you are done dividing, pop all reminders from the stack, that is the binary representation
+
+## 4. Matching Brackets
+
+We are given an arithmetical expression with brackets. Scan through the string and extract each sub-expression.
+
+Print the result back at the terminal.
+
+### Examples
+
+| Input | Output |
+|-|-|
+| 1 + (2 - (2 + 3) * 4 / (3 + 1)) * 5 | (2 + 3)<br>(3 + 1)<br>(2 - (2 + 3) * 4 / (3 + 1)) |
+| (2 + 3) - (2 + 3) | (2 + 3)<br>(2 + 3) |
+
+### Hints
+
+- Use a stack, namely an **ArrayDeque()**
+- Scan through the expression searching for brackets
+  - If you find an opening bracket, push the index into the stack
+  - If you find a closing bracket pop the topmost element from the stack. This is the index of the opening bracket.
+  - Use the current and the popped index to extract the sub-expression
+
+# II. Working with Queues
+
+## 5. Printer Queue
+
+The printer queue is a simple way to control the order of files sent to a printer device. We know that a single printer can be shared between multiple devices. So to preserve the order of the files sent, we can use queue. Write down a program which takes filenames until **&quot;print&quot;** command is received. Then as output print the filenames in the order of printing. Some of the tasks may be **canceled** if you receive **&quot;cancel&quot;** you have to remove the first file to be printed. If there is no current file to be printed print **&quot;Printer is on standby&quot;**.
+
+### Examples
+
+| Input | Output |
+|-|-|
+| Lab.docx<br>cancel<br>cancel<br>Presentation.pptx<br>NoteNothing.txt<br>SomeCode.java<br>cancel<br>print | Canceled Lab.docx<br>Printer is on standby<br>Canceled Presentation.pptx<br>NoteNothing.txt<br>SomeCode.java |
+
+### Hints
+
+- Use an **ArrayDeque\&lt;\&gt;**
+- Use **offer()**, when adding file
+- Use **pollFirst()**,when printing file
+
+## 6. Hot Potato
+
+Hot potato is a game in which **children form a circle and start passing a hot potato**. The counting starts with the fist kid. **Every nth toss the child left with the potato leaves the game** . When a kid leaves the game, it passes the potato forward. This continues repeating **until there is only one kid left**.
+
+Create a program that simulates the game of Hot Potato. **Print every kid that is removed from the circle**. In the end, **print the kid that is left last**.
+
+### Examples
+
+| Input | Output |
+|-|-|
+| Mimi Pepi Toshko<br>2 | Removed Pepi<br>Removed Mimi<br>Last is Toshko |
+| Gosho Pesho Misho Stefan Krasi<br>10 | Removed Krasi<br>Removed Pesho<br>Removed Misho<br>Removed Gosho<br>Last is Stefan |
+| Gosho Pesho Misho Stefan Krasi<br>1 | Removed Gosho<br>Removed Pesho<br>Removed Misho<br>Removed Stefan<br>Last is Krasi |
+
+## 7. Math Potato
+
+Rework the previous problem so that a **child is removed only on a composite (not prime) cycle**
+(cycles start from 1)
+If a **cycle is prime** , just **print the child&#39;s name.**
+As before, print the name of the child that is left last.
+
+### Examples
+
+| Input | Output |
+|-|-|
+| Mimi Pepi Toshko<br>2 | Removed Pepi<br>Prime Mimi<br>Prime Toshko<br>Removed Mimi<br>Last is Toshko |
+| Gosho Pesho Misho Stefan Krasi<br>10 | Removed Krasi<br>Prime Pesho<br>Prime Misho<br>Removed Stefan<br>Prime Gosho<br>Removed Gosho<br>Prime Misho<br>Removed Pesho<br>Last is Misho |
+
+## 8. Browser History Upgrade
+
+Extend &quot;Browser History&quot; with a **&quot;forward&quot;** instruction which visits URLs that were navigated away from by **&quot;back&quot;**
+
+Each forward instruction visits the next most-recent such URL. If a normal navigation happens, all potential forward URLs are removed until a new back instruction is given If the forward instruction can&#39;t be executed, print
+**&quot;no next URLs&quot;.**
+
+### Examples
+
+| Input | Output |
+|-|-|
+| forward<br>https//softuni.bg/<br>https//softuni.bg/trainings/courses<br>back<br>forward<br>https//softuni.bg/trainings/2056<br>back<br>forward<br>forward<br>https//softuni.bg/trainings/courses<br>Home | no next URLs<br>https//softuni.bg/<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/trainings/2056<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/trainings/2056<br>no next URLs<br>https//softuni.bg/trainings/courses |
+
+### Hints
+
+- Use the solution from Browser History
+- Use **ArrayDequeue\&lt;\&gt;** as queue to keep the forward pages
+- Use **clear()** method to reset the forward pages
+- Use **addFirst()** when adding page to the forward pages
+
+
 # Exercises: Stacks and Queues
 
 This document defines the exercises for the [&quot;Java Advanced&quot; course @ Software University](https://softuni.bg/modules/59/java-advanced). 
-You can chech your solutions in [Judge](https://judge.softuni.bg/Contests/1442/Stacks-and-Queues-Exercises).
+You can check your solutions in [Judge](https://judge.softuni.bg/Contests/1442/Stacks-and-Queues-Exercises).
 
 ## 1. Reverse Numbers with a Stack
 
