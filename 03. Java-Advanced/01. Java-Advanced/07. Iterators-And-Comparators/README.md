@@ -141,7 +141,7 @@ Create a class &quot;ListyIterator&quot;, it should receive the collection of **
 By default, the internal index should be pointing to the **0th index** of the List. Your program should support the following commands:
 
 | Command | Return Type | Description |
-|:-:|-|-|
+|-|-|-|
 | Create {e1 e2 …} | void | Creates a ListyIterator from the <br>specified collection. In case of a <br>Create command without any elements, <br>you should create a ListyIterator <br>with an empty collection. |
 | Move | boolean | This command should move the internal <br>index to the next index. |
 | Print | void | This command should print the element <br>at the current internal index. |
@@ -165,7 +165,7 @@ For every command from the input (with the exception of the **END** and **Create
 ### Examples
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | Create<br>Print<br>END | Invalid Operation! |
 | Create Stefcho Goshky<br>HasNext<br>Print<br>Move<br>Print<br>END | true<br>Stefcho<br>true<br>Goshky |
 | Create 1 2 3<br>HasNext<br>Move<br>HasNext<br>HasNext<br>Move<br>HasNext<br>END | true<br>true<br>true<br>true<br>true<br>false |
@@ -192,7 +192,7 @@ For every command from the input (with the exception of the **END** and **Create
 ### Examples
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | Create 1 2 3 4 5<br>Move<br>PrintAll<br>END | true<br>1 2 3 4 5 |
 | Create Stefcho Goshky Peshu<br>PrintAll<br>Move<br>Move<br>Print<br>HasNext<br>END | Stefcho Goshky Peshu<br>true<br>true<br>Peshu<br>false |
 
@@ -225,7 +225,7 @@ When you receive &quot;**END**&quot;, the input is over. Foreach the stack **twi
 ### Examples
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | Push 1, 2, 3, 4<br>Pop<br>Pop<br>END | 2<br>1<br>2<br>1 |
 | Push 1, 2, 3, 4 <br>Pop<br>Push 1<br>END | 1<br>3<br>2<br>1<br>1<br>3<br>2<br>1 |
 | Push 1, 2, 3, 4 <br>Pop<br>Pop<br>Pop<br>Pop<br>Pop<br>END | No elements |
@@ -260,7 +260,7 @@ Format:
 ### Examples
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | 1, 2, 3, 4, 5, 6, 7, 8<br>END | 1, 3, 5, 7, 2, 4, 6, 8 |
 | 1, 2, 3<br>END | 1, 3, 2 |
 
@@ -295,7 +295,7 @@ Format:
 ### Examples
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | Pesho 22 Vraca<br>Gogo 14 Sofeto<br>END<br>2 | No matches |
 | Pesho 22 Vraca<br>Gogo 22 Vraca<br>Gogo 22 Vraca<br>END<br>2 | 2 1 3 |
 
@@ -322,7 +322,7 @@ On the first line of input you will receive a number **N**. On each of the next 
 ### Examples
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | 3<br>Pesho 20<br>Joro 100<br>Pencho 1 | Joro 100<br>Pesho 20<br>Pencho 1<br>Pencho 1<br>Pesho 20<br>Joro 100 |
 | 5<br>Ivan 17<br>asen 33<br>Stoqn 25<br>Nasko 99<br>Joro 3 | asen 33<br>Ivan 17<br>Joro 3<br>Nasko 99<br>Stoqn 25<br>Joro 3<br>Ivan 17<br>Stoqn 25<br>asen 33<br>Nasko 99 |
 
@@ -347,7 +347,7 @@ The output should consist of **exactly** 2 lines. On the first you should print 
 ### Examples
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | 4<br>Pesho 20<br>Peshp 20<br>Joro 15<br>Pesho 21 | 4<br>4 |
 | 7<br>Ivan 17<br>ivan 17<br>Stoqn 25<br>Ivan 18<br>Ivan 17<br>Stopn 25<br>Stoqn 25 | 5<br>5 |
 
@@ -382,7 +382,7 @@ When a print command for a room is called, if the room contains a pet we print t
 ### Commands
 
 | Commands | Return Type | Description |
-|:-:|-|-|
+|-|-|-|
 | Create Pet {name} {age} {kind} | void | Creates a pet with the specified <br>name and age.<br>(true if the operation is <br>successful and false if it isn't) |
 | Create Clinic {name} {rooms} | void | Creates a Clinic with the <br>specified name and number of <br>rooms.<br>(if the rooms are not odd, throws <br>an exception) |
 | Add {pet's name} {clinic's name} | boolean | This command should add the given <br>pet in the specified clinic.<br>(true if the operation is <br>successful and false if it isn't). |
@@ -411,7 +411,7 @@ For each command with a boolean **return** type received through the input, you 
 ### Example
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | 9<br>Create Pet Gosho 7 Cat<br>Create Clinic Rezovo 4<br>Create Clinic Rizovo 1<br>HasEmptyRooms Rizovo<br>Release Rizovo<br>Add Gosho Rizovo<br>HasEmptyRooms Rizovo<br>Create Pet Sharo 2 Dog<br>Add Sharo Rizovo | Invalid Operation!<br>true<br>false<br>true<br>false<br>false |
 | 8<br>Create Pet Gosho 7 Cat<br>Create Pet Sosho 1 Cata<br>Create Clinic Rezovo 5<br>Add Gosho Rezovo<br>Add Sosho Rezovo<br>Print Rezovo 3<br>Release Rezovo<br>Print Rezovo | true<br>true<br>Gosho 7 Cat<br>true<br>Room empty<br>Sosho 1 Cata<br>Room empty<br>Room empty<br>Room empty |
 
@@ -439,7 +439,7 @@ The output should consist of exactly 2 lines. On the first you should print the 
 ### Examples
 
 | Input | Output |
-|:-:|-|
+|-|-|
 | 5<br>Add 7<br>Add -50<br>Remove 3<br>Remove 7<br>Add 20 | 2<br>-50 20 |
 | 6<br>Add 13<br>Add 4<br>Add 20<br>Add 4<br>Remove 4<br>Add 4 | 4<br>13 20 4 4 |
 
