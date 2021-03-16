@@ -1,0 +1,55 @@
+import java.util.function.Consumer;
+
+public class Stack {
+
+    private static class Node {
+        private int element;
+        private Node prev;
+
+        private Node(int element) {
+            this.element = element;
+        }
+    }
+
+    private Node top;
+    private int size;
+
+    public Stack() {
+    }
+
+    public void push(int element) {
+        Node newNode = new Node(element);
+
+        if (this.top != null) {
+            newNode.prev = this.top;
+        }
+        this.top = newNode;
+
+        this.size++;
+    }
+
+    public int pop() {
+        if (this.top == null) {
+            throw new IllegalArgumentException("Empty Stack");
+        }
+
+        int element = this.top.element;
+        this.top = this.top.prev;
+        this.size--;
+
+        return element;
+    }
+
+    public int peek() {
+        return this.top.element;
+    }
+
+    public void forEach(Consumer<Integer> consumer) {
+        Node current = this.top;
+
+        while (current != null) {
+            consumer.accept(current.element);
+            current = current.prev;
+        }
+    }
+}
