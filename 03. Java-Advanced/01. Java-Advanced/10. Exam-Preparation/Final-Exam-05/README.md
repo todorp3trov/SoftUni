@@ -189,4 +189,4 @@ System.out.println(cage.report());
 
 ## Submission
 
-Submit **single .zip file** , containing **rabbits package, with the classes inside (Rabbit, Cage and the Main class****) **, there is no specific content required inside the Main class e. g. you can do any kind of local testing of youр program there. However, there should be** main(String[] args)** method inside.
+Submit **single .zip file** , containing **rabbits package, with the classes inside (Rabbit, Cage and the Main class)**, there is no specific content required inside the Main class e. g. you can do any kind of local testing of youр program there. However, there should be **main(String[] args)** method inside.
