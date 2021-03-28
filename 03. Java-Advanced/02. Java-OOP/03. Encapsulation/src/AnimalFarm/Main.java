@@ -1,4 +1,4 @@
-package AnimalFarm;
+package animalFarm;
 
 import java.util.Scanner;
 
@@ -9,7 +9,10 @@ public class Main {
         String name = scanner.nextLine();
         int age = Integer.parseInt(scanner.nextLine());
 
-        Chicken chicken = new Chicken(name, age);
-        System.out.println(chicken.toString());
+        try {
+            System.out.println(new Chicken(name, age).toString());
+        } catch (IllegalArgumentException ex) {
+            System.out.println(ex.getMessage());
+        }
     }
 }

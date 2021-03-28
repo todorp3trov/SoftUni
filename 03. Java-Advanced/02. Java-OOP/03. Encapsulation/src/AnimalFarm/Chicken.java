@@ -1,16 +1,16 @@
-package AnimalFarm;
+package animalFarm;
 
 public class Chicken {
     private String name;
     private int age;
 
     public Chicken(String name, int age) {
-        setName(name);
-        setAge(age);
+        this.setName(name);
+        this.setAge(age);
     }
 
     private void setName(String name) {
-        if (name == null || name.equals(" ") || name.isEmpty()) {
+        if (name.length() < 1) {
             throw new IllegalArgumentException("Name cannot be empty.");
         }
         this.name = name;
@@ -24,24 +24,26 @@ public class Chicken {
     }
 
     private double calculateProductPerDay() {
-        if (age >= 0 && age <= 5) {
-            return 2.00;
-        } else if  (age >= 6 && age <= 11) {
-            return 1.00;
+        double dailyProduce;
+        if (this.age >= 0 && this.age <= 5) {
+            dailyProduce = 2.0;
+        } else if (this.age >= 6 && this.age <= 11) {
+            dailyProduce = 1.0;
         } else {
-            return 0.75;
+            dailyProduce = 0.75;
         }
+        return dailyProduce;
     }
 
     public double productPerDay() {
-        return calculateProductPerDay();
+        return this.calculateProductPerDay();
     }
 
     @Override
     public String toString() {
-        return "Chicken " + name +
-                " (age " + age + ") " +
-                "can produce " + calculateProductPerDay() +
-                " eggs per day.";
+        return String.format("Chicken %s (age %d) can produce %.2f eggs per day.",
+                this.name,
+                this.age,
+                this.productPerDay());
     }
 }
