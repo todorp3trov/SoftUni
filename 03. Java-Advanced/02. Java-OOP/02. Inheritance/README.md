@@ -150,7 +150,7 @@ public class Main {
 
 Create a package **zoo**. It needs to contain the following classes:
 
-![alt text](https://github.com/Tjikko563/SoftUni/blob/main/03.%20Java-Advanced/02.%20Java-OOP/02.%20Inheritance/images/Untitled1.png)
+![alt text](https://github.com/Tjikko563/SoftUni/blob/main/03.%20Java-Advanced/02.%20Java-OOP/02.%20Inheritance/image-repo/Untitled1.png)
 
 Follow the diagram and create all of the classes. **Each** of them, except the **Animal** class, should **inherit** from **another class**. The Animal class should have field **name** – **String** and **Getter** for **name**.
 
@@ -165,7 +165,7 @@ NOTE: You need a public class **Main**. Create a package **hero**.
 
 Your task is to create the following game hierarchy:
 
-![alt text](https://github.com/Tjikko563/SoftUni/blob/main/03.%20Java-Advanced/02.%20Java-OOP/02.%20Inheritance/images/Untitled2.png)
+![alt text](https://github.com/Tjikko563/SoftUni/blob/main/03.%20Java-Advanced/02.%20Java-OOP/02.%20Inheritance/image-repo/Untitled2.png)
 
 Create a class Hero. It should contain the following members:
 
@@ -178,7 +178,9 @@ Create a class Hero. It should contain the following members:
 - Getters for username and level
 - **toString()** method
 
-Hint: Override **toString()** of the base class in the following way:
+### Hint 
+
+Override **toString()** of the base class in the following way:
 
 ```java
 @Override
@@ -193,7 +195,7 @@ public String toString() {
 ## 4. Need for Speed
 
 NOTE: You need a public class **Main**. Create the following **hierarchy** with the following **classes** : 
-![alt text](https://github.com/Tjikko563/SoftUni/blob/main/03.%20Java-Advanced/02.%20Java-OOP/02.%20Inheritance/images/Untitled3.png)
+![alt text](https://github.com/Tjikko563/SoftUni/blob/main/03.%20Java-Advanced/02.%20Java-OOP/02.%20Inheritance/image-repo/Untitled3.png)
 
 Create a base class **Vehicle**. It should contain the following members:
 
