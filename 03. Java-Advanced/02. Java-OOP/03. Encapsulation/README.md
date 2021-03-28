@@ -13,7 +13,6 @@ Create a class **Person** , which should have **private** fields for:
 
 You should be able to use the class like this:
 
-### Sample Main
 ```java
 public static void main(String[] args) throws IOException {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -60,7 +59,6 @@ New **fields** and **methods**
 
 You should be able to use the class like this:
 
-### Sample Main
 ```java
 public static void main(String[] args) throws IOException {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -109,8 +107,8 @@ Create a **Team** class. Add to this team all person you read. All person **youn
 The class should have **private fields** for:
 
 - **name** : **String**
-- **firstTeam** : **List\&lt;Person\&gt;**
-- **reserveTeam** : **List\&lt;Person\&gt;**
+- **firstTeam** : **List{Person}**
+- **reserveTeam** : **List{Person}**
 
 The class should have **constructors** :
 
@@ -120,8 +118,8 @@ The class should also have private method for **setName** and **public methods**
 
 - **getName()**: **String**
 - **addPlayer(Person person)**: **void**
-- **getFirstTeam()**: **List\&lt;Person\&gt; (Collections.unmodifiableList)**
-- **getReserveTeam()**: **List\&lt;Person\&gt; (Collections.unmodifiableList)**
+- **getFirstTeam()**: **List{Person} (Collections.unmodifiableList)**
+- **getReserveTeam()**: **List{Person} (Collections.unmodifiableList)**
 
 You should be able to use the class like this:
 
@@ -329,7 +327,7 @@ Your task is to model the team and the players following the proper principles o
 
 Your application will receive commands until the &quot; **END**&quot; command is given. The command can be one of the following:
 
-- **&quot;Team;\&lt;TeamName\&gt;&quot;** – add a new team
+- **&quot;Team;{TeamName}&quot;** – add a new team
 - **&quot;Add;{TeamName};{PlayerName};{Endurance};{Sprint};{Dribble};{Passing};{Shooting}&quot;** – add a new player to the team
 - **&quot;Remove;{TeamName};{PlayerName}&quot;** –remove the player from the team
 - **&quot;Rating;{TeamName}&quot;** – print the team rating, rounded to a closest integer
